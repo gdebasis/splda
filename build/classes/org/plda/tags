@@ -1,0 +1,168 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BiHashMap	Document.java	/^    public BiHashMap() {$/;"	m	class:BiHashMap
+BiHashMap	Document.java	/^class BiHashMap<K, V> {$/;"	c
+Collection	Document.java	/^    Collection(String propFile) throws Exception {$/;"	m	class:Collection
+Collection	Document.java	/^    Collection(String propFile, WordMap wordMap, LabelMap labelMap) throws Exception {$/;"	m	class:Collection
+Collection	Document.java	/^class Collection {$/;"	c
+Document	Document.java	/^    public Document(String line, int lineNum,$/;"	m	class:Document
+Document	Document.java	/^class Document {$/;"	c
+GlobalLabel	Document.java	/^    static final String GlobalLabel = "Global";$/;"	f	class:LabelMap
+K	Document.java	/^    int K; \/\/ total number of topics$/;"	f	class:LabelMap
+K	PLDA.java	/^    int K; \/\/ total number of topics$/;"	f	class:PLDA
+K	PLDADocModel.java	/^    int K;  \/\/ #topics$/;"	f	class:PLDADocModel
+L	PLDA.java	/^    int L;$/;"	f	class:PLDABase
+L	PLDADocModel.java	/^    int L;$/;"	f	class:PLDPDocModel
+Label	Document.java	/^    Label(String name, int id) { this.name = name; this.id = id;}$/;"	m	class:Label
+Label	Document.java	/^    Label(String name, int id, int numTopics) {$/;"	m	class:Label
+Label	Document.java	/^class Label {$/;"	c
+LabelMap	Document.java	/^    public LabelMap() {$/;"	m	class:LabelMap
+LabelMap	Document.java	/^class LabelMap extends WordMap {$/;"	c
+LabelTopic	PLDA.java	/^    LabelTopic(int label, int topic) {$/;"	m	class:LabelTopic
+LabelTopic	PLDA.java	/^class LabelTopic {$/;"	c
+MalformedDocumentException	Document.java	/^    public MalformedDocumentException(String msg) {$/;"	m	class:MalformedDocumentException
+MalformedDocumentException	Document.java	/^class MalformedDocumentException extends Exception {$/;"	c
+PLDA	PLDA.java	/^    PLDA(String propFile) throws Exception {$/;"	m	class:PLDA
+PLDA	PLDA.java	/^    PLDA(String propFile, PLDA plda) throws Exception {$/;"	m	class:PLDA
+PLDA	PLDA.java	/^public class PLDA extends PLDABase {$/;"	c
+PLDABase	PLDA.java	/^	PLDABase(String propFile) throws Exception {$/;"	m	class:PLDABase
+PLDABase	PLDA.java	/^class PLDABase {$/;"	c
+PLDADocModel	PLDADocModel.java	/^    PLDADocModel(Document doc, PLDA plda) {$/;"	m	class:PLDADocModel
+PLDADocModel	PLDADocModel.java	/^    PLDADocModel(String line) throws Exception {$/;"	m	class:PLDADocModel
+PLDADocModel	PLDADocModel.java	/^class PLDADocModel extends PLDADocModelBase {$/;"	c
+PLDADocModelBase	PLDADocModel.java	/^	PLDADocModelBase(Document doc) {$/;"	m	class:PLDADocModelBase
+PLDADocModelBase	PLDADocModel.java	/^	PLDADocModelBase(String line) throws Exception {$/;"	m	class:PLDADocModelBase
+PLDADocModelBase	PLDADocModel.java	/^class PLDADocModelBase {$/;"	c
+PLDAInferencer	PLDAInferencer.java	/^    public PLDAInferencer() {$/;"	m	class:PLDAInferencer
+PLDAInferencer	PLDAInferencer.java	/^    public PLDAInferencer(String estPropFile, String infPropFile) throws Exception {$/;"	m	class:PLDAInferencer
+PLDAInferencer	PLDAInferencer.java	/^class PLDAInferencer {$/;"	c
+PLDP	PLDP.java	/^    PLDP(String propFile) throws Exception {$/;"	m	class:PLDP
+PLDP	PLDP.java	/^class PLDP extends PLDABase {$/;"	c
+PLDPDocModel	PLDADocModel.java	/^	PLDPDocModel(Document doc, PLDP pldp) {$/;"	m	class:PLDPDocModel
+PLDPDocModel	PLDADocModel.java	/^class PLDPDocModel extends PLDADocModelBase {$/;"	c
+SPLDA	PLDA.java	/^    SPLDA(String propFile) throws Exception {$/;"	m	class:SPLDA
+SPLDA	PLDA.java	/^class SPLDA extends PLDA {$/;"	c
+SPLDAInferencer	PLDAInferencer.java	/^	public SPLDAInferencer(String estPropFile, String infPropFile) throws Exception {$/;"	m	class:SPLDAInferencer
+SPLDAInferencer	PLDAInferencer.java	/^class SPLDAInferencer extends PLDAInferencer {$/;"	c
+TermPhi	PLDA.java	/^    public TermPhi(int word, float phi) {$/;"	m	class:TermPhi
+TermPhi	PLDA.java	/^class TermPhi implements Comparable<TermPhi> {$/;"	c
+V	PLDA.java	/^    int V; \/\/ vocab size$/;"	f	class:PLDABase
+Vbeta	PLDA.java	/^    float Vbeta;$/;"	f	class:PLDABase
+WordMap	Document.java	/^    public WordMap() {$/;"	m	class:WordMap
+WordMap	Document.java	/^class WordMap {$/;"	c
+alpha	PLDA.java	/^    float alpha;$/;"	f	class:PLDABase
+beta	PLDA.java	/^    float beta;$/;"	f	class:PLDABase
+compareTo	PLDA.java	/^    public int compareTo(TermPhi that) { \/\/ descending order$/;"	m	class:TermPhi
+computePhi	PLDA.java	/^	void computePhi() {$/;"	m	class:PLDA
+computePhi	PLDAInferencer.java	/^    void computePhi() {$/;"	m	class:PLDAInferencer
+computeTheta	PLDA.java	/^	void computeTheta() {$/;"	m	class:PLDA
+doc	PLDADocModel.java	/^	Document doc;$/;"	f	class:PLDADocModelBase
+docs	Document.java	/^    List<Document> docs;$/;"	f	class:Collection
+docs	PLDA.java	/^    Collection docs;$/;"	f	class:PLDABase
+equals	PLDADocModel.java	/^    public boolean equals(Object that) {$/;"	m	class:PLDADocModel
+estimate	PLDA.java	/^	public void estimate() {$/;"	m	class:PLDA
+estimatedModel	PLDAInferencer.java	/^    PLDA estimatedModel;$/;"	f	class:PLDAInferencer
+eta	PLDA.java	/^    float[] eta;   \/\/ regression parameters for topic-output$/;"	f	class:SPLDA
+fwdmap	Document.java	/^    HashMap<K, V> fwdmap;$/;"	f	class:BiHashMap
+get	Document.java	/^    public Document get(int i) {$/;"	m	class:Collection
+getDocModel	PLDA.java	/^    PLDADocModelBase getDocModel(int docid) {$/;"	m	class:PLDABase
+getFwd	Document.java	/^    public V getFwd(String key) {$/;"	m	class:BiHashMap
+getGlobalLabelTopicCount	PLDP.java	/^	int getGlobalLabelTopicCount(int j, int k) {$/;"	m	class:PLDP
+getGlobalLabelTopicCountForTerm	PLDP.java	/^	int getGlobalLabelTopicCountForTerm(int j, int k, int t) {$/;"	m	class:PLDP
+getId	Document.java	/^    public int getId(String word) {$/;"	m	class:WordMap
+getLabel	Document.java	/^    public Label getLabel(int labelId) {$/;"	m	class:Collection
+getNumLabels	Document.java	/^    int getNumLabels() { return labels.length; } $/;"	m	class:LabelMap
+getNumTopics	Document.java	/^    int getNumTopics(String name) {$/;"	m	class:LabelMap
+getProperties	Document.java	/^    Properties getProperties() { return prop; }$/;"	m	class:Collection
+getProperties	PLDA.java	/^    Properties getProperties() { return docs.getProperties(); }$/;"	m	class:PLDA
+getRandom	PLDADocModel.java	/^    LabelTopic getRandom(PLDA plda) {$/;"	m	class:PLDADocModel
+getResponse	PLDADocModel.java	/^    float getResponse() { return doc.y; }$/;"	m	class:PLDADocModel
+getRev	Document.java	/^    public K getRev(V key) {$/;"	m	class:BiHashMap
+getTiedLabelId	Document.java	/^    int getTiedLabelId(int topicId) {$/;"	m	class:LabelMap
+getTiedLabelId	Document.java	/^    public int getTiedLabelId(int topicId) {$/;"	m	class:Collection
+getTiedLabelId	PLDA.java	/^    int getTiedLabelId(int topicId) {$/;"	m	class:PLDA
+getTopWords	PLDA.java	/^    String getTopWords() {$/;"	m	class:PLDA
+getTotalNumTopics	Document.java	/^    int getTotalNumTopics() { return K; }$/;"	m	class:LabelMap
+getVocabSize	Document.java	/^    int getVocabSize() { return maxId; }$/;"	m	class:WordMap
+getWord	Document.java	/^    public String getWord(int id) {$/;"	m	class:WordMap
+id	Document.java	/^    int    id;$/;"	f	class:Label
+id	Document.java	/^    int id;$/;"	f	class:Document
+ifile	Document.java	/^    File ifile;$/;"	f	class:Collection
+infer	PLDAInferencer.java	/^	public void infer() {$/;"	m	class:SPLDAInferencer
+infer	PLDAInferencer.java	/^    public void infer() {$/;"	m	class:PLDAInferencer
+inferedModel	PLDAInferencer.java	/^    PLDA inferedModel;$/;"	f	class:PLDAInferencer
+initModel	PLDA.java	/^    boolean initModel() {$/;"	m	class:PLDA
+initModel	PLDP.java	/^    void initModel() throws Exception {$/;"	m	class:PLDP
+label	PLDA.java	/^    int label;$/;"	f	class:LabelTopic
+labelMap	Document.java	/^    LabelMap labelMap;$/;"	f	class:Collection
+labelRangeMap	Document.java	/^    NavigableMap<Integer, Integer> labelRangeMap;$/;"	f	class:LabelMap
+labels	Document.java	/^    Label[] labels;$/;"	f	class:LabelMap
+labels	Document.java	/^    int[] labels;   \/\/ an index into a global array of label names$/;"	f	class:Document
+links	Document.java	/^    int[] links;    \/\/ links to other documents$/;"	f	class:Document
+load	Document.java	/^    void load() {$/;"	m	class:Collection
+loadDocModels	PLDA.java	/^    ArrayList<PLDADocModelBase> loadDocModels(String file) throws Exception {$/;"	m	class:PLDABase
+loadLabelTopicDistribution	Document.java	/^    void loadLabelTopicDistribution(Properties prop) throws Exception {$/;"	m	class:LabelMap
+lz	PLDADocModel.java	/^	LabelTopic[] lz;$/;"	f	class:PLDADocModelBase
+main	Document.java	/^    public static void main(String[] args) {$/;"	m	class:Collection
+main	PLDA.java	/^    public static void main(String[] args) {$/;"	m	class:PLDA
+main	PLDAInferencer.java	/^    public static void main(String[] args) {$/;"	m	class:PLDAInferencer
+map	Document.java	/^    BiHashMap<String, Integer> map;    $/;"	f	class:WordMap
+mapWords	Document.java	/^    private int[] mapWords(String[] words, WordMap map, boolean isLabel) {$/;"	m	class:Document	file:
+maxId	Document.java	/^    int maxId;$/;"	f	class:WordMap
+model	Document.java	/^    PLDADocModelBase model;$/;"	f	class:Document
+msg	Document.java	/^    String msg;$/;"	f	class:MalformedDocumentException
+name	Document.java	/^    String name;$/;"	f	class:Label
+nd_labels_topics	PLDADocModel.java	/^	HashMap<Integer, Integer>[] nd_labels_topics; \/\/ nd_labels_topics[j][k]: #words in this document assigned to label j and topic k, size LxK$/;"	f	class:PLDPDocModel
+nd_topics	PLDADocModel.java	/^	int[] nd_topics; \/\/ nd_topics[k]: #words in this document assigned to topic k, size K$/;"	f	class:PLDADocModel
+newAssignments	PLDP.java	/^    boolean newAssignments;$/;"	f	class:PLDP
+niters	PLDA.java	/^    int niters;$/;"	f	class:PLDABase
+numDocs	Document.java	/^    int numDocs() { return docs.size(); }$/;"	m	class:Collection
+numTermsAssignedToLabelTopic	PLDADocModel.java	/^	int numTermsAssignedToLabelTopic(int j, int k) {$/;"	m	class:PLDPDocModel
+numTopics	Document.java	/^    int    numTopics;  \/\/ the range of topics for this label is [id, id+numTopics-1]$/;"	f	class:Label
+numberTopicsAssignedToLabel	PLDADocModel.java	/^	int numberTopicsAssignedToLabel(int j) {$/;"	m	class:PLDPDocModel
+nw_labels_topics	PLDP.java	/^	HashMap<Integer, Integer>[][] nw_labels_topics; \/\/ nw_labels_topics[j][t][k]: number of instances of$/;"	f	class:PLDP
+nw_labels_topics_sum	PLDP.java	/^	HashMap<Integer, Integer>[] nw_labels_topics_sum;  \/\/ nw_labels_topics_sum[k]: total number of words$/;"	f	class:PLDP
+nw_topics	PLDA.java	/^	int[][] nw_topics; \/\/ nw_topics[k][t]: number of instances of word t assigned to topic k, size KxV$/;"	f	class:PLDA
+nw_topics_sum	PLDA.java	/^	int[] nw_topics_sum; \/\/ nw_topics_sum[k]: total number of words assigned to topic k, size K    $/;"	f	class:PLDA
+nwords	PLDADocModel.java	/^	int nwords;$/;"	f	class:PLDADocModelBase
+org.plda	Document.java	/^package org.plda;$/;"	p
+org.plda	PLDA.java	/^package org.plda;$/;"	p
+org.plda	PLDADocModel.java	/^package org.plda;$/;"	p
+org.plda	PLDAInferencer.java	/^package org.plda;$/;"	p
+org.plda	PLDP.java	/^package org.plda;$/;"	p
+phi	PLDA.java	/^    float phi;$/;"	f	class:TermPhi
+phi	PLDA.java	/^    float[][] phi;$/;"	f	class:PLDA
+predictResponse	PLDAInferencer.java	/^	float predictResponse(int m) {$/;"	m	class:SPLDAInferencer
+prop	Document.java	/^    Properties prop;$/;"	f	class:Collection
+put	Document.java	/^    public int put(String word) {$/;"	m	class:WordMap
+put	Document.java	/^    public void put(K key, V value) {$/;"	m	class:BiHashMap
+revmap	Document.java	/^    HashMap<V, K> revmap;$/;"	f	class:BiHashMap
+sampleTopic	PLDA.java	/^    int sampleTopic(float[] p) {$/;"	m	class:PLDABase
+sampling	PLDA.java	/^	LabelTopic sampling(int m, int n) {$/;"	m	class:PLDA
+sampling	PLDAInferencer.java	/^	LabelTopic sampling(int m, int n) {$/;"	m	class:PLDAInferencer
+sampling	PLDP.java	/^    LabelTopic sampling(int m, int t) {$/;"	m	class:PLDP
+samplingProb	PLDA.java	/^    float samplingProb(PLDADocModel docModel, int j, int k, int t) {$/;"	m	class:PLDA
+samplingProb	PLDA.java	/^    float samplingProb(PLDADocModel docModel, int j, int k, int t) {$/;"	m	class:SPLDA
+samplingProb	PLDAInferencer.java	/^    float samplingProb(PLDADocModel docModel, int j, int k, int t) {$/;"	m	class:PLDAInferencer
+samplingProb	PLDP.java	/^	float samplingProb(PLDPDocModel docmodel, int j, int k, int t, boolean isNewTopic) {$/;"	m	class:PLDP
+save	PLDA.java	/^    void save(String file) throws Exception {$/;"	m	class:PLDA
+sigma	PLDA.java	/^    float   sigma; \/\/ response drawn from N(eta,sigma)$/;"	f	class:SPLDA
+startTopicIndex	Document.java	/^    int    startTopicIndex; \/\/ range of topics: [startTopicIndex..startTopicIndex+numTopics]$/;"	f	class:Label
+theta	PLDADocModel.java	/^    float[] theta;$/;"	f	class:PLDADocModel
+toString	Document.java	/^    public String toString() {$/;"	m	class:Document
+toString	Document.java	/^    public String toString() {$/;"	m	class:MalformedDocumentException
+toString	PLDADocModel.java	/^    public String toString() {$/;"	m	class:PLDADocModel
+topic	PLDA.java	/^    int topic;$/;"	f	class:LabelTopic
+topicLabelMap	PLDP.java	/^    HashMap<Integer, Integer> topicLabelMap;    \/\/ to get back the label from a topic$/;"	f	class:PLDP
+updateDocLabelTopicCounts	PLDADocModel.java	/^	void updateDocLabelTopicCounts(int j, int k, int delta) {$/;"	m	class:PLDPDocModel
+updateGlobalLabelTopicCount	PLDP.java	/^	void updateGlobalLabelTopicCount(int j, int k, int t, int delta) {$/;"	m	class:PLDP
+updateRegressionParams	PLDA.java	/^    void updateRegressionParams() throws IllegalArgumentException {$/;"	m	class:SPLDA
+updateRegressionParams	PLDA.java	/^    void updateRegressionParams() {$/;"	m	class:PLDA
+word	PLDA.java	/^    int   word;$/;"	f	class:TermPhi
+wordMap	Document.java	/^    WordMap wordMap;$/;"	f	class:Collection
+words	Document.java	/^    int[] words;$/;"	f	class:Document
+y	Document.java	/^    float y;        \/\/ the regression output$/;"	f	class:Document

@@ -1,0 +1,879 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	org/plda/SPLDA.java	/^    float[][] A;$/;"	f	class:SGDLinearRegressor
+AMP	org/json/XML.java	/^    public static final Character AMP   = new Character('&');$/;"	f	class:XML
+APOS	org/json/XML.java	/^    public static final Character APOS  = new Character('\\'');$/;"	f	class:XML
+Answer	org/sostruct/Answer.java	/^    public Answer(JSONObject answerObj) {$/;"	m	class:Answer
+Answer	org/sostruct/Answer.java	/^public class Answer extends Post {$/;"	c
+BANG	org/json/XML.java	/^    public static final Character BANG  = new Character('!');$/;"	f	class:XML
+BiHashMap	org/plda/Document.java	/^    public BiHashMap() {$/;"	m	class:BiHashMap
+BiHashMap	org/plda/Document.java	/^class BiHashMap<K, V> {$/;"	c
+BitInputStream	org/json/zip/BitInputStream.java	/^    public BitInputStream(InputStream in) {$/;"	m	class:BitInputStream
+BitInputStream	org/json/zip/BitInputStream.java	/^    public BitInputStream(InputStream in, int firstByte) {$/;"	m	class:BitInputStream
+BitInputStream	org/json/zip/BitInputStream.java	/^public class BitInputStream implements BitReader {$/;"	c
+BitOutputStream	org/json/zip/BitOutputStream.java	/^    public BitOutputStream(OutputStream out) {$/;"	m	class:BitOutputStream
+BitOutputStream	org/json/zip/BitOutputStream.java	/^public class BitOutputStream implements BitWriter {$/;"	c
+BitReader	org/json/zip/BitReader.java	/^public interface BitReader {$/;"	i
+BitWriter	org/json/zip/BitWriter.java	/^public interface BitWriter {$/;"	i
+CDL	org/json/CDL.java	/^public class CDL {$/;"	c
+CRLF	org/json/HTTP.java	/^    public static final String CRLF = "\\r\\n";$/;"	f	class:HTTP
+Collection	org/plda/Document.java	/^    Collection(String propFile) throws Exception {$/;"	m	class:Collection
+Collection	org/plda/Document.java	/^    Collection(String propFile, WordMap wordMap, LabelMap labelMap) throws Exception {$/;"	m	class:Collection
+Collection	org/plda/Document.java	/^class Collection {$/;"	c
+Comment	org/sostruct/Comment.java	/^    Comment(JSONObject jsonCommentObj) {$/;"	m	class:Comment
+Comment	org/sostruct/Comment.java	/^public class Comment {$/;"	c
+Compressor	org/json/zip/Compressor.java	/^    public Compressor(BitWriter bitwriter) {$/;"	m	class:Compressor
+Compressor	org/json/zip/Compressor.java	/^public class Compressor extends JSONzip {$/;"	c
+Cookie	org/json/Cookie.java	/^public class Cookie {$/;"	c
+CookieList	org/json/CookieList.java	/^public class CookieList {$/;"	c
+Decompressor	org/json/zip/Decompressor.java	/^    public Decompressor(BitReader bitreader) {$/;"	m	class:Decompressor
+Decompressor	org/json/zip/Decompressor.java	/^public class Decompressor extends JSONzip {$/;"	c
+Document	org/plda/Document.java	/^    public Document(String line, int lineNum,$/;"	m	class:Document
+Document	org/plda/Document.java	/^class Document {$/;"	c
+EQ	org/json/XML.java	/^    public static final Character EQ    = new Character('=');$/;"	f	class:XML
+FIELD_ANSWERS	org/index/QuestionIndexer.java	/^	static final public String FIELD_ANSWERS = "answers";  \/\/ answers for related questions$/;"	f	class:QuestionIndexer
+FIELD_ANSWERS_CODE	org/index/QuestionIndexer.java	/^	static final public String FIELD_ANSWERS_CODE = "acode";  \/\/ answers for related questions$/;"	f	class:QuestionIndexer
+FIELD_BODY	org/index/QuestionIndexer.java	/^	static final public String FIELD_BODY = "body";$/;"	f	class:QuestionIndexer
+FIELD_BODY_WITH_TOPICS	org/index/QuestionIndexer.java	/^	static final public String FIELD_BODY_WITH_TOPICS = "tbody"; \/\/ indexing with the topic weights$/;"	f	class:QuestionIndexer
+FIELD_CODE	org/index/QuestionIndexer.java	/^	static final public String FIELD_CODE = "code";$/;"	f	class:QuestionIndexer
+FIELD_COMMENTS	org/index/QuestionIndexer.java	/^	static final public String FIELD_COMMENTS = "comments"; \/\/ comments in question\/answers$/;"	f	class:QuestionIndexer
+FIELD_ID	org/index/QuestionIndexer.java	/^	static final public String FIELD_ID = "id";$/;"	f	class:QuestionIndexer
+FIELD_LINKED	org/index/QuestionIndexer.java	/^	static final public String FIELD_LINKED = "linked";    \/\/ ids to linked questions$/;"	f	class:QuestionIndexer
+FIELD_TAGS	org/index/QuestionIndexer.java	/^	static final public String FIELD_TAGS = "tags"; \/\/ tags in questions$/;"	f	class:QuestionIndexer
+FIELD_TITLE	org/index/QuestionIndexer.java	/^	static final public String FIELD_TITLE = "title";$/;"	f	class:QuestionIndexer
+GT	org/json/XML.java	/^    public static final Character GT    = new Character('>');$/;"	f	class:XML
+GlobalLabel	org/plda/Document.java	/^    static final String GlobalLabel = "Global";$/;"	f	class:LabelMap
+HTTP	org/json/HTTP.java	/^public class HTTP {$/;"	c
+HTTPTokener	org/json/HTTPTokener.java	/^    public HTTPTokener(String string) {$/;"	m	class:HTTPTokener
+HTTPTokener	org/json/HTTPTokener.java	/^public class HTTPTokener extends JSONTokener {$/;"	c
+Huff	org/json/zip/Huff.java	/^    public Huff(int domain) {$/;"	m	class:Huff
+Huff	org/json/zip/Huff.java	/^public class Huff implements None, PostMortem {$/;"	c
+InvPattern	org/sostruct/InvPattern.java	/^public class InvPattern {$/;"	c
+JSONArray	org/json/JSONArray.java	/^    public JSONArray() {$/;"	m	class:JSONArray
+JSONArray	org/json/JSONArray.java	/^    public JSONArray(Collection collection) {$/;"	m	class:JSONArray
+JSONArray	org/json/JSONArray.java	/^    public JSONArray(JSONTokener x) throws JSONException {$/;"	m	class:JSONArray
+JSONArray	org/json/JSONArray.java	/^    public JSONArray(Object array) throws JSONException {$/;"	m	class:JSONArray
+JSONArray	org/json/JSONArray.java	/^    public JSONArray(String source) throws JSONException {$/;"	m	class:JSONArray
+JSONArray	org/json/JSONArray.java	/^public class JSONArray {$/;"	c
+JSONException	org/json/JSONException.java	/^    public JSONException(String message) {$/;"	m	class:JSONException
+JSONException	org/json/JSONException.java	/^    public JSONException(Throwable cause) {$/;"	m	class:JSONException
+JSONException	org/json/JSONException.java	/^public class JSONException extends RuntimeException {$/;"	c
+JSONML	org/json/JSONML.java	/^public class JSONML {$/;"	c
+JSONObject	org/json/JSONObject.java	/^    public JSONObject() {$/;"	m	class:JSONObject
+JSONObject	org/json/JSONObject.java	/^    public JSONObject(JSONObject jo, String[] names) {$/;"	m	class:JSONObject
+JSONObject	org/json/JSONObject.java	/^    public JSONObject(JSONTokener x) throws JSONException {$/;"	m	class:JSONObject
+JSONObject	org/json/JSONObject.java	/^    public JSONObject(Map map) {$/;"	m	class:JSONObject
+JSONObject	org/json/JSONObject.java	/^    public JSONObject(Object bean) {$/;"	m	class:JSONObject
+JSONObject	org/json/JSONObject.java	/^    public JSONObject(Object object, String names[]) {$/;"	m	class:JSONObject
+JSONObject	org/json/JSONObject.java	/^    public JSONObject(String baseName, Locale locale) throws JSONException {$/;"	m	class:JSONObject
+JSONObject	org/json/JSONObject.java	/^    public JSONObject(String source) throws JSONException {$/;"	m	class:JSONObject
+JSONObject	org/json/JSONObject.java	/^public class JSONObject {$/;"	c
+JSONString	org/json/JSONString.java	/^public interface JSONString {$/;"	i
+JSONStringer	org/json/JSONStringer.java	/^    public JSONStringer() {$/;"	m	class:JSONStringer
+JSONStringer	org/json/JSONStringer.java	/^public class JSONStringer extends JSONWriter {$/;"	c
+JSONTokener	org/json/JSONTokener.java	/^    public JSONTokener(InputStream inputStream) throws JSONException {$/;"	m	class:JSONTokener
+JSONTokener	org/json/JSONTokener.java	/^    public JSONTokener(Reader reader) {$/;"	m	class:JSONTokener
+JSONTokener	org/json/JSONTokener.java	/^    public JSONTokener(String s) {$/;"	m	class:JSONTokener
+JSONTokener	org/json/JSONTokener.java	/^public class JSONTokener {$/;"	c
+JSONWriter	org/json/JSONWriter.java	/^    public JSONWriter(Writer w) {$/;"	m	class:JSONWriter
+JSONWriter	org/json/JSONWriter.java	/^public class JSONWriter {$/;"	c
+JSONzip	org/json/zip/JSONzip.java	/^    protected JSONzip() {$/;"	m	class:JSONzip
+JSONzip	org/json/zip/JSONzip.java	/^public abstract class JSONzip implements None, PostMortem {$/;"	c
+K	org/plda/Document.java	/^    int K; \/\/ total number of topics$/;"	f	class:LabelMap
+K	org/plda/PLDABase.java	/^    int K;  \/\/#topics$/;"	f	class:PLDABase
+K	org/plda/PLDADocModel.java	/^    int K;  \/\/ #topics$/;"	f	class:PLDADocModel
+K	org/plda/PLDP.java	/^	int K; \/\/ Growable (not really a parameter) $/;"	f	class:PLDP
+K	org/plda/SPLDA.java	/^	int K;$/;"	f	class:SGDLinearRegressor
+Keep	org/json/zip/Keep.java	/^    public Keep(int bits) {$/;"	m	class:Keep
+Keep	org/json/zip/Keep.java	/^abstract class Keep implements None, PostMortem {$/;"	c
+Kim	org/json/Kim.java	/^    public Kim(Kim kim, int from, int thru) {$/;"	m	class:Kim
+Kim	org/json/Kim.java	/^    public Kim(String string) throws JSONException {$/;"	m	class:Kim
+Kim	org/json/Kim.java	/^    public Kim(byte[] bytes, int from, int thru) {$/;"	m	class:Kim
+Kim	org/json/Kim.java	/^    public Kim(byte[] bytes, int length) {$/;"	m	class:Kim
+Kim	org/json/Kim.java	/^public class Kim {$/;"	c
+L	org/plda/PLDABase.java	/^    int L;$/;"	f	class:PLDABase
+L	org/plda/PLDADocModel.java	/^    int L;  \/\/ #labels $/;"	f	class:PLDADocModel
+L	org/plda/PLDADocModel.java	/^    int L;$/;"	f	class:PLDPDocModel
+LMPayloadSimilarity	org/index/SOQuestionSearcher.java	/^    public LMPayloadSimilarity(float lambda) {$/;"	m	class:LMPayloadSimilarity
+LMPayloadSimilarity	org/index/SOQuestionSearcher.java	/^class LMPayloadSimilarity extends LMJelinekMercerSimilarity {$/;"	c
+LT	org/json/XML.java	/^    public static final Character LT    = new Character('<');$/;"	f	class:XML
+Label	org/plda/Document.java	/^    Label(String name, int id) { this.name = name; this.id = id;}$/;"	m	class:Label
+Label	org/plda/Document.java	/^    Label(String name, int id, int numTopics) {$/;"	m	class:Label
+Label	org/plda/Document.java	/^class Label {$/;"	c
+LabelMap	org/plda/Document.java	/^    public LabelMap() {$/;"	m	class:LabelMap
+LabelMap	org/plda/Document.java	/^class LabelMap extends WordMap {$/;"	c
+LabelTopic	org/plda/PLDABase.java	/^    LabelTopic(int label, int topic) {$/;"	m	class:LabelTopic
+LabelTopic	org/plda/PLDABase.java	/^class LabelTopic {$/;"	c
+LabelTopicSeparator	org/plda/PLDADocModel.java	/^    static String LabelTopicSeparator = ":";$/;"	f	class:PLDADocModelBase
+LinkExtractor	org/crawler/LinkExtractor.java	/^    LinkExtractor(String topDir, String inputMap, String oFileName) throws Exception {$/;"	m	class:LinkExtractor
+LinkExtractor	org/crawler/LinkExtractor.java	/^public class LinkExtractor {$/;"	c
+LinkedQuestionExtractor	org/crawler/LinkedQuestionExtractor.java	/^    LinkedQuestionExtractor(String topDir) throws Exception {$/;"	m	class:LinkedQuestionExtractor
+LinkedQuestionExtractor	org/crawler/LinkedQuestionExtractor.java	/^class LinkedQuestionExtractor {$/;"	c
+LuceneDocToTSV	org/index/LuceneDocToTSV.java	/^    public LuceneDocToTSV() throws Exception  {$/;"	m	class:LuceneDocToTSV
+LuceneDocToTSV	org/index/LuceneDocToTSV.java	/^    public LuceneDocToTSV(String propFile) throws Exception {$/;"	m	class:LuceneDocToTSV
+LuceneDocToTSV	org/index/LuceneDocToTSV.java	/^public class LuceneDocToTSV {$/;"	c
+M	org/plda/SPLDA.java	/^    int M;$/;"	f	class:SGDLinearRegressor
+MalformedDocumentException	org/plda/Document.java	/^    public MalformedDocumentException(String msg) {$/;"	m	class:MalformedDocumentException
+MalformedDocumentException	org/plda/Document.java	/^class MalformedDocumentException extends Exception {$/;"	c
+MapKeep	org/json/zip/MapKeep.java	/^    public MapKeep(int bits) {$/;"	m	class:MapKeep
+MapKeep	org/json/zip/MapKeep.java	/^class MapKeep extends Keep {$/;"	c
+NULL	org/json/JSONObject.java	/^    public static final Object NULL = new Null();$/;"	f	class:JSONObject
+Node	org/json/zip/TrieKeep.java	/^        public Node() {$/;"	m	class:TrieKeep.Node
+Node	org/json/zip/TrieKeep.java	/^    class Node implements PostMortem {$/;"	c	class:TrieKeep
+None	org/json/zip/None.java	/^public interface None {$/;"	i
+Null	org/json/JSONObject.java	/^    private static final class Null {$/;"	c	class:JSONObject
+PLDA	org/plda/PLDA.java	/^    PLDA(String propFile) throws Exception {$/;"	m	class:PLDA
+PLDA	org/plda/PLDA.java	/^    PLDA(String propFile, PLDA plda) throws Exception {$/;"	m	class:PLDA
+PLDA	org/plda/PLDA.java	/^public class PLDA extends PLDABase {$/;"	c
+PLDABase	org/plda/PLDABase.java	/^	PLDABase(String propFile) throws Exception {$/;"	m	class:PLDABase
+PLDABase	org/plda/PLDABase.java	/^    public PLDABase(String propFile, PLDABase estimated) throws Exception {$/;"	m	class:PLDABase
+PLDABase	org/plda/PLDABase.java	/^abstract class PLDABase {$/;"	c
+PLDADocModel	org/plda/PLDADocModel.java	/^    PLDADocModel(Document doc, int K, int L) {$/;"	m	class:PLDADocModel
+PLDADocModel	org/plda/PLDADocModel.java	/^    PLDADocModel(String line) throws Exception {$/;"	m	class:PLDADocModel
+PLDADocModel	org/plda/PLDADocModel.java	/^class PLDADocModel extends PLDADocModelBase {$/;"	c
+PLDADocModelBase	org/plda/PLDADocModel.java	/^	PLDADocModelBase(Document doc) {$/;"	m	class:PLDADocModelBase
+PLDADocModelBase	org/plda/PLDADocModel.java	/^	PLDADocModelBase(String line) throws Exception {$/;"	m	class:PLDADocModelBase
+PLDADocModelBase	org/plda/PLDADocModel.java	/^class PLDADocModelBase {$/;"	c
+PLDAInferencer	org/plda/PLDAInferencer.java	/^    public PLDAInferencer() {$/;"	m	class:PLDAInferencer
+PLDAInferencer	org/plda/PLDAInferencer.java	/^    public PLDAInferencer(String estPropFile, String infPropFile) throws Exception {$/;"	m	class:PLDAInferencer
+PLDAInferencer	org/plda/PLDAInferencer.java	/^class PLDAInferencer {$/;"	c
+PLDP	org/plda/PLDP.java	/^    PLDP(String propFile) throws Exception {$/;"	m	class:PLDP
+PLDP	org/plda/PLDP.java	/^    public PLDP(String propFile, PLDABase estimated) throws Exception {$/;"	m	class:PLDP
+PLDP	org/plda/PLDP.java	/^class PLDP extends PLDABase {$/;"	c
+PLDPDocModel	org/plda/PLDADocModel.java	/^	PLDPDocModel(Document doc, PLDP pldp) {$/;"	m	class:PLDPDocModel
+PLDPDocModel	org/plda/PLDADocModel.java	/^class PLDPDocModel extends PLDADocModelBase {$/;"	c
+PayloadAnalyzer	org/index/PayloadAnalyzer.java	/^    public PayloadAnalyzer() {$/;"	m	class:PayloadAnalyzer
+PayloadAnalyzer	org/index/PayloadAnalyzer.java	/^public class PayloadAnalyzer extends Analyzer {$/;"	c
+Post	org/sostruct/Question.java	/^class Post {$/;"	c
+PostMortem	org/json/zip/PostMortem.java	/^public interface PostMortem {$/;"	i
+Property	org/json/Property.java	/^public class Property {$/;"	c
+QUEST	org/json/XML.java	/^    public static final Character QUEST = new Character('?');$/;"	f	class:XML
+QUOT	org/json/XML.java	/^    public static final Character QUOT  = new Character('"');$/;"	f	class:XML
+QueryConstructor	org/index/SOQuestionSearcher.java	/^    public QueryConstructor(Properties prop) {$/;"	m	class:QueryConstructor
+QueryConstructor	org/index/SOQuestionSearcher.java	/^class QueryConstructor {$/;"	c
+Question	org/sostruct/Question.java	/^    public Question(JSONObject questionObj) {$/;"	m	class:Question
+Question	org/sostruct/Question.java	/^public class Question extends Post {$/;"	c
+QuestionIndexer	org/index/QuestionIndexer.java	/^	QuestionIndexer(String propFile) throws Exception {$/;"	m	class:QuestionIndexer
+QuestionIndexer	org/index/QuestionIndexer.java	/^public class QuestionIndexer {$/;"	c
+RTM	org/plda/RTM.java	/^public class RTM {$/;"	c
+SGDLinearRegressor	org/plda/SPLDA.java	/^    public SGDLinearRegressor(float[][] A, float[] y) {$/;"	m	class:SGDLinearRegressor
+SGDLinearRegressor	org/plda/SPLDA.java	/^class SGDLinearRegressor {$/;"	c
+SLASH	org/json/XML.java	/^    public static final Character SLASH = new Character('\/');$/;"	f	class:XML
+SOAnalyzer	org/index/SOAnalyzer.java	/^	public SOAnalyzer(boolean stem, String stopFile) {$/;"	m	class:SOAnalyzer
+SOAnalyzer	org/index/SOAnalyzer.java	/^    public SOAnalyzer(Properties prop) {$/;"	m	class:SOAnalyzer
+SOAnalyzer	org/index/SOAnalyzer.java	/^public class SOAnalyzer extends Analyzer {$/;"	c
+SOQuery	org/index/SOQuestionSearcher.java	/^    public SOQuery(int qid, Query luceneQueryObj) {$/;"	m	class:SOQuery
+SOQuery	org/index/SOQuestionSearcher.java	/^class SOQuery {$/;"	c
+SOQuestionSearcher	org/index/SOQuestionSearcher.java	/^    public SOQuestionSearcher(String propFile, String className) throws Exception {$/;"	m	class:SOQuestionSearcher
+SOQuestionSearcher	org/index/SOQuestionSearcher.java	/^public class SOQuestionSearcher {$/;"	c
+SPLDA	org/plda/SPLDA.java	/^    SPLDA(String propFile) throws Exception {$/;"	m	class:SPLDA
+SPLDA	org/plda/SPLDA.java	/^    SPLDA(String propFile, PLDA plda) throws Exception {$/;"	m	class:SPLDA
+SPLDA	org/plda/SPLDA.java	/^public class SPLDA extends PLDA {$/;"	c
+SPLDAInferencer	org/plda/SPLDAInferencer.java	/^	public SPLDAInferencer(String estPropFile, String infPropFile) throws Exception {$/;"	m	class:SPLDAInferencer
+SPLDAInferencer	org/plda/SPLDAInferencer.java	/^public class SPLDAInferencer extends PLDAInferencer {$/;"	c
+Symbol	org/json/zip/Huff.java	/^        public Symbol(int integer) {$/;"	m	class:Huff.Symbol
+Symbol	org/json/zip/Huff.java	/^    private static class Symbol implements PostMortem {$/;"	c	class:Huff
+Tag	org/index/LuceneDocToTSV.java	/^    Tag(String name) { this.name = name; }$/;"	m	class:Tag
+Tag	org/index/LuceneDocToTSV.java	/^class Tag {$/;"	c
+TermPhi	org/plda/PLDABase.java	/^    public TermPhi(int word, float phi) {$/;"	m	class:TermPhi
+TermPhi	org/plda/PLDABase.java	/^class TermPhi implements Comparable<TermPhi> {$/;"	c
+TopicInfo	org/plda/PLDA.java	/^    TopicInfo(int topicId, float prob) {$/;"	m	class:TopicInfo
+TopicInfo	org/plda/PLDA.java	/^class TopicInfo {$/;"	c
+TrieKeep	org/json/zip/TrieKeep.java	/^    public TrieKeep(int bits) {$/;"	m	class:TrieKeep
+TrieKeep	org/json/zip/TrieKeep.java	/^class TrieKeep extends Keep {$/;"	c
+UNDEF	org/plda/PLDAInferencer.java	/^    static final int UNDEF = -1;$/;"	f	class:PLDAInferencer
+V	org/plda/PLDABase.java	/^    int V; \/\/ vocab size$/;"	f	class:PLDABase
+Vbeta	org/plda/PLDABase.java	/^    float Vbeta;$/;"	f	class:PLDABase
+WordMap	org/plda/Document.java	/^    public WordMap() {$/;"	m	class:WordMap
+WordMap	org/plda/Document.java	/^class WordMap {$/;"	c
+XML	org/json/XML.java	/^public class XML {$/;"	c
+XMLTokener	org/json/XMLTokener.java	/^    public XMLTokener(String s) {$/;"	m	class:XMLTokener
+XMLTokener	org/json/XMLTokener.java	/^public class XMLTokener extends JSONTokener {$/;"	c
+Xml2Txt	org/json/Xml2Txt.java	/^	Xml2Txt(String xmlBody) throws SAXException {$/;"	m	class:Xml2Txt
+Xml2Txt	org/json/Xml2Txt.java	/^class Xml2Txt extends DefaultHandler {$/;"	c
+accumulate	org/json/JSONObject.java	/^    public JSONObject accumulate(String key, Object value) throws JSONException {$/;"	m	class:JSONObject
+addGlobal	org/plda/Document.java	/^    boolean addGlobal;$/;"	f	class:Document
+age	org/json/zip/Keep.java	/^    public static long age(long use) {$/;"	m	class:Keep
+alpha	org/plda/PLDABase.java	/^    float alpha;$/;"	f	class:PLDABase
+alpha	org/plda/SPLDA.java	/^	float alpha = 0.01f;$/;"	f	class:SGDLinearRegressor
+answers	org/sostruct/Question.java	/^    List<Answer> answers;$/;"	f	class:Question
+append	org/json/JSONObject.java	/^    public JSONObject append(String key, Object value) throws JSONException {$/;"	m	class:JSONObject
+append	org/json/JSONWriter.java	/^    private JSONWriter append(String string) throws JSONException {$/;"	m	class:JSONWriter	file:
+array	org/json/JSONWriter.java	/^    public JSONWriter array() throws JSONException {$/;"	m	class:JSONWriter
+askerReputation	org/sostruct/Question.java	/^    int askerReputation;$/;"	f	class:Question
+available	org/json/zip/BitInputStream.java	/^    private int available = 0;$/;"	f	class:BitInputStream	file:
+back	org/json/JSONTokener.java	/^    public void back() throws JSONException {$/;"	m	class:JSONTokener
+back	org/json/zip/Huff.java	/^        public Symbol back;$/;"	f	class:Huff.Symbol
+bcd	org/json/zip/Compressor.java	/^    private static int bcd(char digit) {$/;"	m	class:Compressor	file:
+bcd	org/json/zip/JSONzip.java	/^    public static final byte[] bcd = {$/;"	f	class:JSONzip
+begin	org/json/zip/JSONzip.java	/^    protected void begin() {$/;"	m	class:JSONzip
+beta	org/plda/PLDABase.java	/^    float beta;$/;"	f	class:PLDABase
+bit	org/json/zip/BitInputStream.java	/^    public boolean bit() throws IOException {$/;"	m	class:BitInputStream
+bit	org/json/zip/BitReader.java	/^    public boolean bit() throws IOException;$/;"	m	interface:BitReader
+bit	org/json/zip/Decompressor.java	/^    private boolean bit() throws JSONException {$/;"	m	class:Decompressor	file:
+bitreader	org/json/zip/Decompressor.java	/^    BitReader bitreader;$/;"	f	class:Decompressor
+bitsize	org/json/zip/Keep.java	/^    public int bitsize() {$/;"	m	class:Keep
+bitwriter	org/json/zip/Compressor.java	/^    final BitWriter bitwriter;$/;"	f	class:Compressor
+body	org/sostruct/Question.java	/^	String body;$/;"	f	class:Post
+buff	org/json/Xml2Txt.java	/^	StringBuffer buff;		\/\/ Accumulation buffer for storing the current topic$/;"	f	class:Xml2Txt
+bytes	org/json/Kim.java	/^    private byte[] bytes = null;$/;"	f	class:Kim	file:
+capacity	org/json/zip/Keep.java	/^    protected int capacity;$/;"	f	class:Keep
+cause	org/json/JSONException.java	/^    private Throwable cause;$/;"	f	class:JSONException	file:
+character	org/json/JSONTokener.java	/^    private long    character;$/;"	f	class:JSONTokener	file:
+characterAt	org/json/Kim.java	/^    public int characterAt(int at) throws JSONException {$/;"	m	class:Kim
+characterSize	org/json/Kim.java	/^    public static int characterSize(int character) throws JSONException {$/;"	m	class:Kim
+characters	org/json/Xml2Txt.java	/^	public void characters(char ch[], int start, int length) throws SAXException {$/;"	m	class:Xml2Txt
+clone	org/json/JSONObject.java	/^        protected final Object clone() {$/;"	m	class:JSONObject.Null
+code	org/sostruct/Question.java	/^	String code;$/;"	f	class:Post
+comma	org/json/JSONWriter.java	/^    private boolean comma;$/;"	f	class:JSONWriter	file:
+comments	org/sostruct/Answer.java	/^    List<Comment> comments;$/;"	f	class:Answer
+comments	org/sostruct/Question.java	/^    List<Comment> comments;$/;"	f	class:Question
+compact	org/json/zip/MapKeep.java	/^    private void compact() {$/;"	m	class:MapKeep	file:
+compareTo	org/plda/PLDABase.java	/^    public int compareTo(TermPhi that) { \/\/ descending order$/;"	m	class:TermPhi
+computePhi	org/plda/PLDA.java	/^	void computePhi() {$/;"	m	class:PLDA
+computePhi	org/plda/PLDABase.java	/^    abstract void computePhi();$/;"	m	class:PLDABase
+computePhi	org/plda/PLDAInferencer.java	/^    void computePhi() {$/;"	m	class:PLDAInferencer
+computePhi	org/plda/PLDP.java	/^	void computePhi() {$/;"	m	class:PLDP
+computeTheta	org/plda/PLDA.java	/^	void computeTheta() {$/;"	m	class:PLDA
+computeTheta	org/plda/PLDABase.java	/^	abstract void computeTheta();$/;"	m	class:PLDABase
+computeTheta	org/plda/PLDP.java	/^   	void computeTheta() {$/;"	m	class:PLDP
+construct	org/index/SOQuestionSearcher.java	/^    BooleanQuery construct(List<String> terms) {$/;"	m	class:QueryConstructor
+constructQueries	org/index/SOQuestionSearcher.java	/^    public List<SOQuery> constructQueries() throws Exception {        $/;"	m	class:QueryConstructor
+containsKey	org/plda/Document.java	/^    boolean containsKey(K key) {$/;"	m	class:BiHashMap
+content	org/sostruct/Comment.java	/^    String content;$/;"	f	class:Comment
+convertAll	org/index/LuceneDocToTSV.java	/^    public void convertAll() throws Exception {$/;"	m	class:LuceneDocToTSV
+convertDoc	org/index/LuceneDocToTSV.java	/^    public String convertDoc(int docId) throws Exception {$/;"	m	class:LuceneDocToTSV
+copy	org/json/Kim.java	/^    public int copy(byte[] bytes, int at) {$/;"	m	class:Kim
+crawledLinks	org/crawler/LinkExtractor.java	/^    HashMap<Integer, Integer> crawledLinks;    $/;"	f	class:LinkExtractor
+createComponents	org/index/PayloadAnalyzer.java	/^    protected TokenStreamComponents createComponents(String fieldName, Reader reader) {$/;"	m	class:PayloadAnalyzer
+createComponents	org/index/SOAnalyzer.java	/^	protected Analyzer.TokenStreamComponents createComponents(String fieldName, Reader reader) {$/;"	m	class:SOAnalyzer
+createNewTopic	org/plda/PLDP.java	/^    int createNewTopic(int j) { \/\/ update the data structures$/;"	m	class:PLDP
+creationDate	org/sostruct/Question.java	/^    String creationDate;$/;"	f	class:Question
+dehexchar	org/json/JSONTokener.java	/^    public static int dehexchar(char c) {$/;"	m	class:JSONTokener
+delay	org/crawler/LinkExtractor.java	/^    static final int delay = 200;$/;"	f	class:LinkExtractor
+delay	org/crawler/LinkedQuestionExtractor.java	/^    static final int delay = 5000;$/;"	f	class:LinkedQuestionExtractor
+delayAfterQuotaReq	org/crawler/LinkExtractor.java	/^	static final int delayAfterQuotaReq = 60000;$/;"	f	class:LinkExtractor
+delim	org/index/LuceneDocToTSV.java	/^    static final String delim = "\\t";$/;"	f	class:LuceneDocToTSV
+delim	org/index/PayloadAnalyzer.java	/^    public static char delim = '|';$/;"	f	class:PayloadAnalyzer
+doc	org/plda/PLDADocModel.java	/^	Document doc;$/;"	f	class:PLDADocModelBase
+docs	org/plda/Document.java	/^    List<Document> docs;$/;"	f	class:Collection
+docs	org/plda/PLDABase.java	/^    Collection docs;$/;"	f	class:PLDABase
+domain	org/json/zip/Huff.java	/^    private final int domain;$/;"	f	class:Huff	file:
+doubleToString	org/json/JSONObject.java	/^    public static String doubleToString(double d) {$/;"	m	class:JSONObject
+encoder	org/index/PayloadAnalyzer.java	/^    private PayloadEncoder encoder;$/;"	f	class:PayloadAnalyzer	file:
+end	org/json/JSONTokener.java	/^    public boolean end() {$/;"	m	class:JSONTokener
+end	org/json/JSONWriter.java	/^    private JSONWriter end(char mode, char c) throws JSONException {$/;"	m	class:JSONWriter	file:
+end	org/json/zip/JSONzip.java	/^    public static final int end = 256;$/;"	f	class:JSONzip
+endArray	org/json/JSONWriter.java	/^    public JSONWriter endArray() throws JSONException {$/;"	m	class:JSONWriter
+endElement	org/json/Xml2Txt.java	/^	public void endElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {$/;"	m	class:Xml2Txt
+endObject	org/json/JSONWriter.java	/^    public JSONWriter endObject() throws JSONException {$/;"	m	class:JSONWriter
+endOfNumber	org/json/zip/JSONzip.java	/^    public static final int endOfNumber = bcd.length;$/;"	f	class:JSONzip
+entity	org/json/XMLTokener.java	/^   public static final java.util.HashMap entity;$/;"	f	class:XMLTokener
+eof	org/json/JSONTokener.java	/^    private boolean eof;$/;"	f	class:JSONTokener	file:
+epoch	org/plda/SPLDA.java	/^	void epoch() {$/;"	m	class:SGDLinearRegressor
+equals	org/json/JSONObject.java	/^        public boolean equals(Object object) {$/;"	m	class:JSONObject.Null
+equals	org/json/Kim.java	/^    public boolean equals(Object obj) {$/;"	m	class:Kim
+equals	org/plda/PLDADocModel.java	/^    public boolean equals(Object that) {$/;"	m	class:PLDADocModel
+escape	org/json/Cookie.java	/^    public static String escape(String string) {$/;"	m	class:Cookie
+escape	org/json/XML.java	/^    public static String escape(String string) {$/;"	m	class:XML
+estimate	org/plda/PLDABase.java	/^	public void estimate() {$/;"	m	class:PLDABase
+estimate	org/plda/SPLDA.java	/^	public void estimate() {$/;"	m	class:SPLDA
+estimate	org/plda/SPLDA.java	/^	void estimate() {$/;"	m	class:SGDLinearRegressor
+estimated	org/plda/PLDABase.java	/^    PLDABase estimated;$/;"	f	class:PLDABase
+estimatedModel	org/plda/PLDAInferencer.java	/^    PLDA estimatedModel;$/;"	f	class:PLDAInferencer
+eta	org/plda/SPLDA.java	/^    float[] eta;   \/\/ regression parameters for topic-output$/;"	f	class:SPLDA
+extractLinkedIds	org/crawler/LinkExtractor.java	/^    public String extractLinkedIds(Question thisQuestion) throws Exception {$/;"	m	class:LinkExtractor
+find	org/json/zip/MapKeep.java	/^    public int find(Object key) {$/;"	m	class:MapKeep
+flush	org/json/zip/Compressor.java	/^    public void flush() throws JSONException {$/;"	m	class:Compressor
+fout	org/crawler/LinkExtractor.java	/^    FileWriter fout;$/;"	f	class:LinkExtractor
+froms	org/json/zip/TrieKeep.java	/^    private int[] froms;$/;"	f	class:TrieKeep	file:
+fwdmap	org/plda/Document.java	/^    HashMap<K, V> fwdmap;$/;"	f	class:BiHashMap
+generate	org/json/zip/Huff.java	/^    public void generate() {$/;"	m	class:Huff
+generateIndex	org/plda/PLDABase.java	/^    void generateIndex() throws Exception {$/;"	m	class:PLDABase
+get	org/json/JSONArray.java	/^    public Object get(int index) throws JSONException {$/;"	m	class:JSONArray
+get	org/json/JSONObject.java	/^    public Object get(String key) throws JSONException {$/;"	m	class:JSONObject
+get	org/json/Kim.java	/^    public int get(int at) throws JSONException {$/;"	m	class:Kim
+get	org/json/zip/TrieKeep.java	/^        public Node get(byte cell) {$/;"	m	class:TrieKeep.Node
+get	org/json/zip/TrieKeep.java	/^        public Node get(int cell) {$/;"	m	class:TrieKeep.Node
+get	org/plda/Document.java	/^    public Document get(int i) {$/;"	m	class:Collection
+getAndTick	org/json/zip/Decompressor.java	/^    private Object getAndTick(Keep keep, BitReader bitreader)$/;"	m	class:Decompressor	file:
+getBagOfWords	org/index/LuceneDocToTSV.java	/^    private String getBagOfWords(String text) throws Exception {$/;"	m	class:LuceneDocToTSV	file:
+getBagOfWords	org/index/SOQuestionSearcher.java	/^    private List<String> getBagOfWords(String text) throws Exception {$/;"	m	class:QueryConstructor	file:
+getBody	org/sostruct/Question.java	/^    public String getBody() { return body; }$/;"	m	class:Question
+getBoolean	org/json/JSONArray.java	/^    public boolean getBoolean(int index) throws JSONException {$/;"	m	class:JSONArray
+getBoolean	org/json/JSONObject.java	/^    public boolean getBoolean(String key) throws JSONException {$/;"	m	class:JSONObject
+getCause	org/json/JSONException.java	/^    public Throwable getCause() {$/;"	m	class:JSONException
+getCode	org/sostruct/Answer.java	/^    String getCode() throws Exception {$/;"	m	class:Answer
+getCode	org/sostruct/Question.java	/^    public String getCode() throws Exception {$/;"	m	class:Question
+getCodeFromAnswers	org/sostruct/Question.java	/^    public String getCodeFromAnswers() throws Exception {$/;"	m	class:Question
+getConcatAnswers	org/sostruct/Question.java	/^    public String getConcatAnswers() {$/;"	m	class:Question
+getConcatComments	org/sostruct/Question.java	/^    public String getConcatComments() {$/;"	m	class:Question
+getContentWOTags	org/index/QuestionIndexer.java	/^	static String getContentWOTags(String body) {$/;"	m	class:QuestionIndexer
+getCorrespondingLabelId	org/plda/PLDAInferencer.java	/^    int getCorrespondingLabelId(int inferenceModelLabelId) {$/;"	m	class:PLDAInferencer
+getCorrespondingWordId	org/plda/PLDAInferencer.java	/^    int getCorrespondingWordId(int inferenceModelWordId) {$/;"	m	class:PLDAInferencer
+getDocModel	org/plda/PLDABase.java	/^    PLDADocModelBase getDocModel(int docid) {$/;"	m	class:PLDABase
+getDouble	org/json/JSONArray.java	/^    public double getDouble(int index) throws JSONException {$/;"	m	class:JSONArray
+getDouble	org/json/JSONObject.java	/^    public double getDouble(String key) throws JSONException {$/;"	m	class:JSONObject
+getFwd	org/plda/Document.java	/^    public V getFwd(K key) {$/;"	m	class:BiHashMap
+getGlobalLabelTopicCount	org/plda/PLDP.java	/^	int getGlobalLabelTopicCount(int j, int k) {$/;"	m	class:PLDP
+getGlobalLabelTopicCountForTerm	org/plda/PLDP.java	/^	int getGlobalLabelTopicCountForTerm(int j, int k, int t) {$/;"	m	class:PLDP
+getID	org/sostruct/Question.java	/^    public int getID() { return id; }$/;"	m	class:Question
+getId	org/plda/Document.java	/^    public int getId(String word) {$/;"	m	class:WordMap
+getInt	org/json/JSONArray.java	/^    public int getInt(int index) throws JSONException {$/;"	m	class:JSONArray
+getInt	org/json/JSONObject.java	/^    public int getInt(String key) throws JSONException {$/;"	m	class:JSONObject
+getIntercept	org/plda/SPLDA.java	/^	float getIntercept() { return this.theta[0]; }$/;"	m	class:SGDLinearRegressor
+getJSONArray	org/json/JSONArray.java	/^    public JSONArray getJSONArray(int index) throws JSONException {$/;"	m	class:JSONArray
+getJSONArray	org/json/JSONObject.java	/^    public JSONArray getJSONArray(String key) throws JSONException {$/;"	m	class:JSONObject
+getJSONObject	org/json/JSONArray.java	/^    public JSONObject getJSONObject(int index) throws JSONException {$/;"	m	class:JSONArray
+getJSONObject	org/json/JSONObject.java	/^    public JSONObject getJSONObject(String key) throws JSONException {$/;"	m	class:JSONObject
+getLabel	org/plda/Document.java	/^    public Label getLabel(int labelId) {$/;"	m	class:Collection
+getLinkedIds	org/index/QuestionIndexer.java	/^	String getLinkedIds(Question thisQuestion) {$/;"	m	class:QuestionIndexer
+getLong	org/json/JSONArray.java	/^    public long getLong(int index) throws JSONException {$/;"	m	class:JSONArray
+getLong	org/json/JSONObject.java	/^    public long getLong(String key) throws JSONException {$/;"	m	class:JSONObject
+getModelSpecificFile	org/plda/PLDABase.java	/^    String getModelSpecificFile(String fileSuffix) {$/;"	m	class:PLDABase
+getNames	org/json/JSONObject.java	/^    public static String[] getNames(JSONObject jo) {$/;"	m	class:JSONObject
+getNames	org/json/JSONObject.java	/^    public static String[] getNames(Object object) {$/;"	m	class:JSONObject
+getNormalizedTag	org/index/LuceneDocToTSV.java	/^    String getNormalizedTag(String tagName) {$/;"	m	class:LuceneDocToTSV
+getNormalizedTags	org/index/LuceneDocToTSV.java	/^    String getNormalizedTags(String tagcsv) {$/;"	m	class:LuceneDocToTSV
+getNumLabels	org/plda/Document.java	/^    int getNumLabels() { return labels == null? 0 : labels.length; } $/;"	m	class:LabelMap
+getNumTopics	org/plda/Document.java	/^    int getNumTopics(String name) {$/;"	m	class:LabelMap
+getParams	org/plda/SPLDA.java	/^	float[] getParams() {$/;"	m	class:SGDLinearRegressor
+getProperties	org/plda/Document.java	/^    Properties getProperties() { return prop; }$/;"	m	class:Collection
+getProperties	org/plda/PLDA.java	/^    Properties getProperties() { return docs.getProperties(); }$/;"	m	class:PLDA
+getRandom	org/plda/PLDADocModel.java	/^    LabelTopic getRandom(PLDA plda) {$/;"	m	class:PLDADocModel
+getResponse	org/plda/PLDADocModel.java	/^    float getResponse() { return doc.y; }$/;"	m	class:PLDADocModel
+getRev	org/plda/Document.java	/^    public K getRev(V key) {$/;"	m	class:BiHashMap
+getScore	org/sostruct/Question.java	/^    int getScore() { return score; }$/;"	m	class:Question
+getString	org/json/JSONArray.java	/^    public String getString(int index) throws JSONException {$/;"	m	class:JSONArray
+getString	org/json/JSONObject.java	/^    public String getString(String key) throws JSONException {$/;"	m	class:JSONObject
+getTags	org/sostruct/Question.java	/^    public String getTags() {$/;"	m	class:Question
+getText	org/json/Xml2Txt.java	/^	String getText() {$/;"	m	class:Xml2Txt
+getTiedLabelId	org/plda/Document.java	/^    int getTiedLabelId(int topicId) {$/;"	m	class:LabelMap
+getTiedLabelId	org/plda/Document.java	/^    public int getTiedLabelId(int topicId) {$/;"	m	class:Collection
+getTiedLabelId	org/plda/PLDABase.java	/^    int getTiedLabelId(int topicId) {$/;"	m	class:PLDABase
+getTitle	org/sostruct/Question.java	/^    public String getTitle() { return title; }$/;"	m	class:Question
+getTopWords	org/plda/PLDABase.java	/^    String getTopWords() {$/;"	m	class:PLDABase
+getTopWords	org/plda/PLDP.java	/^	String getTopWords() {$/;"	m	class:PLDP
+getTotalNumTopics	org/plda/Document.java	/^    int getTotalNumTopics() { return K; }$/;"	m	class:LabelMap
+getValue	org/json/CDL.java	/^    private static String getValue(JSONTokener x) throws JSONException {$/;"	m	class:CDL	file:
+getVocabSize	org/plda/Document.java	/^    int getVocabSize() { return maxId; }$/;"	m	class:WordMap
+getWord	org/plda/Document.java	/^    public String getWord(int id) {$/;"	m	class:WordMap
+has	org/json/JSONObject.java	/^    public boolean has(String key) {$/;"	m	class:JSONObject
+hashCode	org/json/Kim.java	/^    public int hashCode() {$/;"	m	class:Kim
+hashcode	org/json/Kim.java	/^    private int hashcode = 0;$/;"	f	class:Kim	file:
+hypothesis	org/plda/SPLDA.java	/^	float hypothesis(float[] x) {  \/\/ h(x) = \\theta^T x$/;"	m	class:SGDLinearRegressor
+id	org/plda/Document.java	/^    int    id;$/;"	f	class:Label
+id	org/plda/Document.java	/^    int id;$/;"	f	class:Document
+id	org/sostruct/Question.java	/^    int id;$/;"	f	class:Question
+ifile	org/plda/Document.java	/^    File ifile;$/;"	f	class:Collection
+in	org/json/zip/BitInputStream.java	/^    private InputStream in;$/;"	f	class:BitInputStream	file:
+increment	org/json/JSONObject.java	/^    public JSONObject increment(String key) throws JSONException {$/;"	m	class:JSONObject
+indent	org/json/JSONObject.java	/^    static final void indent(Writer writer, int indent) throws IOException {$/;"	m	class:JSONObject
+index	org/json/JSONTokener.java	/^    private long    index;$/;"	f	class:JSONTokener	file:
+indexAll	org/index/QuestionIndexer.java	/^	void indexAll() throws Exception {$/;"	m	class:QuestionIndexer
+indexDir	org/index/QuestionIndexer.java	/^	File indexDir;$/;"	f	class:QuestionIndexer
+indexDirectory	org/index/QuestionIndexer.java	/^    private void indexDirectory(File dir) throws Exception {$/;"	m	class:QuestionIndexer	file:
+indexFile	org/index/QuestionIndexer.java	/^	void indexFile(File jsonFile) throws Exception {$/;"	m	class:QuestionIndexer
+indexQuestion	org/index/QuestionIndexer.java	/^	void indexQuestion(Question thisQuestion) throws Exception {$/;"	m	class:QuestionIndexer
+infer	org/plda/PLDAInferencer.java	/^    public void infer() {$/;"	m	class:PLDAInferencer
+infer	org/plda/SPLDAInferencer.java	/^	public void infer() {$/;"	m	class:SPLDAInferencer
+inferedModel	org/plda/PLDAInferencer.java	/^    PLDA inferedModel;$/;"	f	class:PLDAInferencer
+initModel	org/plda/PLDA.java	/^    boolean initModel() {$/;"	m	class:PLDA
+initModel	org/plda/PLDABase.java	/^    abstract boolean initModel();$/;"	m	class:PLDABase
+initModel	org/plda/PLDP.java	/^	boolean initModel() {$/;"	m	class:PLDP
+int14	org/json/zip/JSONzip.java	/^    public static final long int14 = 16384;$/;"	f	class:JSONzip
+int4	org/json/zip/JSONzip.java	/^    public static final long int4 = 16;$/;"	f	class:JSONzip
+int7	org/json/zip/JSONzip.java	/^    public static final long int7 = 128;$/;"	f	class:JSONzip
+integer	org/json/zip/Huff.java	/^        public final int integer;$/;"	f	class:Huff.Symbol
+integer	org/json/zip/TrieKeep.java	/^        private int integer;$/;"	f	class:TrieKeep.Node	file:
+isAccepted	org/sostruct/Answer.java	/^    boolean isAccepted;$/;"	f	class:Answer
+isNull	org/json/JSONArray.java	/^    public boolean isNull(int index) {$/;"	m	class:JSONArray
+isNull	org/json/JSONObject.java	/^    public boolean isNull(String key) {$/;"	m	class:JSONObject
+isOOV	org/plda/Document.java	/^    public boolean isOOV(String word) {$/;"	m	class:WordMap
+join	org/json/JSONArray.java	/^    public String join(String separator) throws JSONException {$/;"	m	class:JSONArray
+jsonObject	org/sostruct/Answer.java	/^    JSONObject jsonObject;$/;"	f	class:Answer
+jsonObject	org/sostruct/Comment.java	/^    JSONObject jsonObject;$/;"	f	class:Comment
+jsonObject	org/sostruct/Question.java	/^    JSONObject jsonObject;$/;"	f	class:Question
+key	org/json/JSONWriter.java	/^    public JSONWriter key(String string) throws JSONException {$/;"	m	class:JSONWriter
+keySet	org/json/JSONObject.java	/^    public Set keySet() {$/;"	m	class:JSONObject
+keys	org/json/JSONObject.java	/^    public Iterator keys() {$/;"	m	class:JSONObject
+kim	org/json/zip/TrieKeep.java	/^    public Kim kim(int integer) {$/;"	m	class:TrieKeep
+kims	org/json/zip/TrieKeep.java	/^    private Kim[] kims;$/;"	f	class:TrieKeep	file:
+label	org/plda/PLDABase.java	/^    int label;$/;"	f	class:LabelTopic
+labelMap	org/plda/Document.java	/^    LabelMap labelMap;$/;"	f	class:Collection
+labelProp	org/plda/PLDABase.java	/^    boolean labelProp;$/;"	f	class:PLDABase
+labelRangeMap	org/plda/Document.java	/^    NavigableMap<Integer, Integer> labelRangeMap;$/;"	f	class:LabelMap
+labelTopicMap	org/plda/PLDP.java	/^    HashMap<Integer, List<Integer>> labelTopicMap; \/\/ to get the topic ids assigned to a label (globally)$/;"	f	class:PLDP
+labels	org/plda/Document.java	/^    Label[] labels;$/;"	f	class:LabelMap
+labels	org/plda/Document.java	/^    int[] labels;   \/\/ an index into a global array of label names$/;"	f	class:Document
+lastDocModel	org/plda/SPLDA.java	/^    static PLDADocModel lastDocModel = null;$/;"	f	class:SPLDA
+lastEtaZ	org/plda/SPLDA.java	/^    static float lastEtaZ = 0;$/;"	f	class:SPLDA
+length	org/json/JSONArray.java	/^    public int length() {$/;"	m	class:JSONArray
+length	org/json/JSONObject.java	/^    public int length() {$/;"	m	class:JSONObject
+length	org/json/Kim.java	/^    public int length = 0;$/;"	f	class:Kim
+length	org/json/zip/Keep.java	/^    protected int length;$/;"	f	class:Keep
+length	org/json/zip/TrieKeep.java	/^    public int length(int integer) {$/;"	m	class:TrieKeep
+line	org/json/JSONTokener.java	/^    private long    line;$/;"	f	class:JSONTokener	file:
+linkMap	org/index/QuestionIndexer.java	/^	HashMap<Integer, ArrayList<Integer>> linkMap;$/;"	f	class:QuestionIndexer
+links	org/plda/Document.java	/^    int[] links;    \/\/ links to other documents$/;"	f	class:Document
+list	org/json/zip/MapKeep.java	/^    private Object[] list;$/;"	f	class:MapKeep	file:
+load	org/plda/Document.java	/^    void load() {$/;"	m	class:Collection
+loadDocModels	org/plda/PLDABase.java	/^    ArrayList<PLDADocModelBase> loadDocModels(String file) throws Exception {$/;"	m	class:PLDABase
+loadExistingLinks	org/crawler/LinkExtractor.java	/^    private void loadExistingLinks(String imap) throws Exception {$/;"	m	class:LinkExtractor	file:
+loadLabelTopicDistribution	org/plda/Document.java	/^    void loadLabelTopicDistribution(Properties prop) throws Exception {$/;"	m	class:LabelMap
+loadLinks	org/index/QuestionIndexer.java	/^	private void loadLinks(String linkFile) throws Exception {$/;"	m	class:QuestionIndexer	file:
+loadTags	org/index/LuceneDocToTSV.java	/^    void loadTags(String tagSynFile) throws Exception {$/;"	m	class:LuceneDocToTSV
+loadTopTags	org/index/LuceneDocToTSV.java	/^    void loadTopTags(String tagFile) throws Exception {$/;"	m	class:LuceneDocToTSV
+log	org/json/zip/JSONzip.java	/^    static void log() {$/;"	m	class:JSONzip
+log	org/json/zip/JSONzip.java	/^    static void log(String string) {$/;"	m	class:JSONzip
+log	org/json/zip/JSONzip.java	/^    static void log(int integer) {$/;"	m	class:JSONzip
+log	org/json/zip/JSONzip.java	/^    static void log(int integer, int width) {$/;"	m	class:JSONzip
+logchar	org/json/zip/JSONzip.java	/^    static void logchar(int integer, int width) {$/;"	m	class:JSONzip
+luceneQueryObj	org/index/SOQuestionSearcher.java	/^    Query luceneQueryObj;$/;"	f	class:SOQuery
+lz	org/plda/PLDADocModel.java	/^	LabelTopic[] lz;$/;"	f	class:PLDADocModelBase
+main	org/crawler/LinkExtractor.java	/^    public static void main(String[] args) throws Exception {$/;"	m	class:LinkExtractor
+main	org/crawler/LinkedQuestionExtractor.java	/^    public static void main(String[] args) throws Exception {$/;"	m	class:LinkedQuestionExtractor
+main	org/index/LuceneDocToTSV.java	/^    public static void main(String[] args) {$/;"	m	class:LuceneDocToTSV
+main	org/index/QuestionIndexer.java	/^	public static void main(String[] args) throws Exception {$/;"	m	class:QuestionIndexer
+main	org/index/SOQuestionSearcher.java	/^    public static void main(String[] args) {$/;"	m	class:SOQuestionSearcher
+main	org/json/Xml2Txt.java	/^	public static void main(String[] args) {$/;"	m	class:Xml2Txt
+main	org/plda/Document.java	/^    public static void main(String[] args) {$/;"	m	class:Collection
+main	org/plda/PLDA.java	/^    public static void main(String[] args) {$/;"	m	class:PLDA
+main	org/plda/PLDAInferencer.java	/^    public static void main(String[] args) {$/;"	m	class:PLDAInferencer
+main	org/plda/PLDP.java	/^    public static void main(String[] args) {$/;"	m	class:PLDP
+main	org/plda/SPLDA.java	/^    public static void main(String[] args) {$/;"	m	class:SPLDA
+main	org/plda/SPLDAInferencer.java	/^    public static void main(String[] args) {$/;"	m	class:SPLDAInferencer
+main	org/sostruct/InvPattern.java	/^    public static void main(String[] args) {$/;"	m	class:InvPattern
+map	org/json/JSONObject.java	/^    private final Map map;$/;"	f	class:JSONObject	file:
+map	org/json/zip/MapKeep.java	/^    private HashMap map;$/;"	f	class:MapKeep	file:
+map	org/plda/Document.java	/^    BiHashMap<String, Integer> map;    $/;"	f	class:WordMap
+mapWords	org/plda/Document.java	/^    private int[] mapWords(String[] words, WordMap map, boolean isLabel) {$/;"	m	class:Document	file:
+mask	org/json/zip/BitInputStream.java	/^    static final int[] mask = { 0, 1, 3, 7, 15, 31, 63, 127, 255 };$/;"	f	class:BitInputStream
+match	org/json/zip/TrieKeep.java	/^    public int match(Kim kim, int from, int thru) {$/;"	m	class:TrieKeep
+maxId	org/plda/Document.java	/^    int maxId;$/;"	f	class:WordMap
+maxSubstringLength	org/json/zip/JSONzip.java	/^    public static final int maxSubstringLength = 10;$/;"	f	class:JSONzip
+maxdepth	org/json/JSONWriter.java	/^    private static final int maxdepth = 200;$/;"	f	class:JSONWriter	file:
+minSubstringLength	org/json/zip/JSONzip.java	/^    public static final int minSubstringLength = 3;$/;"	f	class:JSONzip
+mode	org/json/JSONWriter.java	/^    protected char mode;$/;"	f	class:JSONWriter
+model	org/plda/Document.java	/^    PLDADocModelBase model;$/;"	f	class:Document
+more	org/json/JSONTokener.java	/^    public boolean more() throws JSONException {$/;"	m	class:JSONTokener
+msg	org/plda/Document.java	/^    String msg;$/;"	f	class:MalformedDocumentException
+myArrayList	org/json/JSONArray.java	/^    private final ArrayList myArrayList;$/;"	f	class:JSONArray	file:
+name	org/index/LuceneDocToTSV.java	/^    String name;$/;"	f	class:Tag
+name	org/plda/Document.java	/^    String name;$/;"	f	class:Label
+namehuff	org/json/zip/JSONzip.java	/^    protected final Huff namehuff;$/;"	f	class:JSONzip
+namekeep	org/json/zip/JSONzip.java	/^    protected final MapKeep namekeep;$/;"	f	class:JSONzip
+names	org/json/JSONObject.java	/^    public JSONArray names() {$/;"	m	class:JSONObject
+nd_labels	org/plda/PLDADocModel.java	/^    int[] nd_labels; \/\/ nd_labels[k]: #words in this document assigned to label j, size L$/;"	f	class:PLDADocModel
+nd_labels_topics	org/plda/PLDADocModel.java	/^	HashMap<Integer, Integer>[] nd_labels_topics; \/\/ nd_labels_topics[j][k]: #words in this document assigned to label j and topic k, size LxK$/;"	f	class:PLDPDocModel
+nd_topics	org/plda/PLDADocModel.java	/^	int[] nd_topics; \/\/ nd_topics[k]: #words in this document assigned to topic k, size K$/;"	f	class:PLDADocModel
+newAssignments	org/plda/PLDP.java	/^    boolean newAssignments;$/;"	f	class:PLDP
+next	org/json/JSONTokener.java	/^     public String next(int n) throws JSONException {$/;"	m	class:JSONTokener
+next	org/json/JSONTokener.java	/^    public char next() throws JSONException {$/;"	m	class:JSONTokener
+next	org/json/JSONTokener.java	/^    public char next(char c) throws JSONException {$/;"	m	class:JSONTokener
+next	org/json/zip/Huff.java	/^        public Symbol next;$/;"	f	class:Huff.Symbol
+next	org/json/zip/TrieKeep.java	/^        private Node[] next;$/;"	f	class:TrieKeep.Node	file:
+nextCDATA	org/json/XMLTokener.java	/^    public String nextCDATA() throws JSONException {$/;"	m	class:XMLTokener
+nextClean	org/json/JSONTokener.java	/^    public char nextClean() throws JSONException {$/;"	m	class:JSONTokener
+nextContent	org/json/XMLTokener.java	/^    public Object nextContent() throws JSONException {$/;"	m	class:XMLTokener
+nextEntity	org/json/XMLTokener.java	/^    public Object nextEntity(char ampersand) throws JSONException {$/;"	m	class:XMLTokener
+nextMeta	org/json/XMLTokener.java	/^    public Object nextMeta() throws JSONException {$/;"	m	class:XMLTokener
+nextString	org/json/JSONTokener.java	/^    public String nextString(char quote) throws JSONException {$/;"	m	class:JSONTokener
+nextTo	org/json/JSONTokener.java	/^    public String nextTo(String delimiters) throws JSONException {$/;"	m	class:JSONTokener
+nextTo	org/json/JSONTokener.java	/^    public String nextTo(char delimiter) throws JSONException {$/;"	m	class:JSONTokener
+nextToken	org/json/HTTPTokener.java	/^    public String nextToken() throws JSONException {$/;"	m	class:HTTPTokener
+nextToken	org/json/XMLTokener.java	/^    public Object nextToken() throws JSONException {$/;"	m	class:XMLTokener
+nextValue	org/json/JSONTokener.java	/^    public Object nextValue() throws JSONException {$/;"	m	class:JSONTokener
+niters	org/plda/PLDABase.java	/^    int niters;$/;"	f	class:PLDABase
+niters	org/plda/SPLDA.java	/^	int niters;$/;"	f	class:SGDLinearRegressor
+noSpace	org/json/XML.java	/^    public static void noSpace(String string) throws JSONException {$/;"	m	class:XML
+none	org/json/zip/None.java	/^    public static final int none = -1;$/;"	f	interface:None
+nrBits	org/json/zip/BitInputStream.java	/^    private long nrBits = 0;$/;"	f	class:BitInputStream	file:
+nrBits	org/json/zip/BitInputStream.java	/^    public long nrBits() {$/;"	m	class:BitInputStream
+nrBits	org/json/zip/BitOutputStream.java	/^    private long nrBits = 0;$/;"	f	class:BitOutputStream	file:
+nrBits	org/json/zip/BitOutputStream.java	/^    public long nrBits() {$/;"	m	class:BitOutputStream
+nrBits	org/json/zip/BitReader.java	/^    public long nrBits();$/;"	m	interface:BitReader
+nrBits	org/json/zip/BitWriter.java	/^    public long nrBits();$/;"	m	interface:BitWriter
+numDocs	org/plda/Document.java	/^    int numDocs() { return docs.size(); }$/;"	m	class:Collection
+numNewTopics	org/plda/PLDP.java	/^    int numNewTopics;$/;"	f	class:PLDP
+numRequests	org/crawler/LinkExtractor.java	/^    int numRequests;$/;"	f	class:LinkExtractor
+numTermsAssignedToLabelTopic	org/plda/PLDADocModel.java	/^	int numTermsAssignedToLabelTopic(int j, int k) {$/;"	m	class:PLDPDocModel
+numTopics	org/plda/Document.java	/^    int    numTopics;  \/\/ the range of topics for this label is [id, id+numTopics-1]$/;"	f	class:Label
+numWanted	org/index/SOQuestionSearcher.java	/^    int numWanted;$/;"	f	class:SOQuestionSearcher
+numberToString	org/json/JSONObject.java	/^    public static String numberToString(Number number) throws JSONException {$/;"	m	class:JSONObject
+numberTopicsAssignedToLabel	org/plda/PLDADocModel.java	/^	int numberTopicsAssignedToLabel(int j) {$/;"	m	class:PLDPDocModel
+nw_labels_topics	org/plda/PLDP.java	/^	HashMap<Integer, Integer>[][] nw_labels_topics; \/\/ nw_labels_topics[j][t][k]: number of instances of$/;"	f	class:PLDP
+nw_labels_topics_sum	org/plda/PLDP.java	/^	HashMap<Integer, Integer>[] nw_labels_topics_sum;  \/\/ nw_labels_topics_sum[k]: total number of words$/;"	f	class:PLDP
+nw_topics	org/plda/PLDA.java	/^	int[][] nw_topics; \/\/ nw_topics[k][t]: number of instances of word t assigned to topic k, size KxV$/;"	f	class:PLDA
+nw_topics_sum	org/plda/PLDA.java	/^	int[] nw_topics_sum; \/\/ nw_topics_sum[k]: total number of words assigned to topic k, size K    $/;"	f	class:PLDA
+nwords	org/plda/PLDADocModel.java	/^	int nwords;$/;"	f	class:PLDADocModelBase
+oFileName	org/crawler/LinkExtractor.java	/^    String oFileName;$/;"	f	class:LinkExtractor
+object	org/json/JSONWriter.java	/^    public JSONWriter object() throws JSONException {$/;"	m	class:JSONWriter
+one	org/json/zip/BitOutputStream.java	/^    public void one() throws IOException {$/;"	m	class:BitOutputStream
+one	org/json/zip/BitWriter.java	/^    public void one() throws IOException;$/;"	m	interface:BitWriter
+one	org/json/zip/Compressor.java	/^    private void one() throws JSONException {$/;"	m	class:Compressor	file:
+one	org/json/zip/Huff.java	/^        public Symbol one;$/;"	f	class:Huff.Symbol
+opt	org/json/JSONArray.java	/^    public Object opt(int index) {$/;"	m	class:JSONArray
+opt	org/json/JSONObject.java	/^    public Object opt(String key) {$/;"	m	class:JSONObject
+optBoolean	org/json/JSONArray.java	/^    public boolean optBoolean(int index) {$/;"	m	class:JSONArray
+optBoolean	org/json/JSONArray.java	/^    public boolean optBoolean(int index, boolean defaultValue) {$/;"	m	class:JSONArray
+optBoolean	org/json/JSONObject.java	/^    public boolean optBoolean(String key) {$/;"	m	class:JSONObject
+optBoolean	org/json/JSONObject.java	/^    public boolean optBoolean(String key, boolean defaultValue) {$/;"	m	class:JSONObject
+optDouble	org/json/JSONArray.java	/^    public double optDouble(int index) {$/;"	m	class:JSONArray
+optDouble	org/json/JSONArray.java	/^    public double optDouble(int index, double defaultValue) {$/;"	m	class:JSONArray
+optDouble	org/json/JSONObject.java	/^    public double optDouble(String key) {$/;"	m	class:JSONObject
+optDouble	org/json/JSONObject.java	/^    public double optDouble(String key, double defaultValue) {$/;"	m	class:JSONObject
+optInt	org/json/JSONArray.java	/^    public int optInt(int index) {$/;"	m	class:JSONArray
+optInt	org/json/JSONArray.java	/^    public int optInt(int index, int defaultValue) {$/;"	m	class:JSONArray
+optInt	org/json/JSONObject.java	/^    public int optInt(String key) {$/;"	m	class:JSONObject
+optInt	org/json/JSONObject.java	/^    public int optInt(String key, int defaultValue) {$/;"	m	class:JSONObject
+optJSONArray	org/json/JSONArray.java	/^    public JSONArray optJSONArray(int index) {$/;"	m	class:JSONArray
+optJSONArray	org/json/JSONObject.java	/^    public JSONArray optJSONArray(String key) {$/;"	m	class:JSONObject
+optJSONObject	org/json/JSONArray.java	/^    public JSONObject optJSONObject(int index) {$/;"	m	class:JSONArray
+optJSONObject	org/json/JSONObject.java	/^    public JSONObject optJSONObject(String key) {$/;"	m	class:JSONObject
+optLong	org/json/JSONArray.java	/^    public long optLong(int index) {$/;"	m	class:JSONArray
+optLong	org/json/JSONArray.java	/^    public long optLong(int index, long defaultValue) {$/;"	m	class:JSONArray
+optLong	org/json/JSONObject.java	/^    public long optLong(String key) {$/;"	m	class:JSONObject
+optLong	org/json/JSONObject.java	/^    public long optLong(String key, long defaultValue) {$/;"	m	class:JSONObject
+optString	org/json/JSONArray.java	/^    public String optString(int index) {$/;"	m	class:JSONArray
+optString	org/json/JSONArray.java	/^    public String optString(int index, String defaultValue) {$/;"	m	class:JSONArray
+optString	org/json/JSONObject.java	/^    public String optString(String key) {$/;"	m	class:JSONObject
+optString	org/json/JSONObject.java	/^    public String optString(String key, String defaultValue) {$/;"	m	class:JSONObject
+org.crawler	org/crawler/LinkExtractor.java	/^package org.crawler;$/;"	p
+org.crawler	org/crawler/LinkedQuestionExtractor.java	/^package org.crawler;$/;"	p
+org.index	org/index/LuceneDocToTSV.java	/^package org.index;$/;"	p
+org.index	org/index/PayloadAnalyzer.java	/^package org.index;$/;"	p
+org.index	org/index/QuestionIndexer.java	/^package org.index;$/;"	p
+org.index	org/index/SOAnalyzer.java	/^package org.index;$/;"	p
+org.index	org/index/SOQuestionSearcher.java	/^package org.index;$/;"	p
+org.json	org/json/CDL.java	/^package org.json;$/;"	p
+org.json	org/json/Cookie.java	/^package org.json;$/;"	p
+org.json	org/json/CookieList.java	/^package org.json;$/;"	p
+org.json	org/json/HTTP.java	/^package org.json;$/;"	p
+org.json	org/json/HTTPTokener.java	/^package org.json;$/;"	p
+org.json	org/json/JSONArray.java	/^package org.json;$/;"	p
+org.json	org/json/JSONException.java	/^package org.json;$/;"	p
+org.json	org/json/JSONML.java	/^package org.json;$/;"	p
+org.json	org/json/JSONObject.java	/^package org.json;$/;"	p
+org.json	org/json/JSONString.java	/^package org.json;$/;"	p
+org.json	org/json/JSONStringer.java	/^package org.json;$/;"	p
+org.json	org/json/JSONTokener.java	/^package org.json;$/;"	p
+org.json	org/json/JSONWriter.java	/^package org.json;$/;"	p
+org.json	org/json/Kim.java	/^package org.json;$/;"	p
+org.json	org/json/Property.java	/^package org.json;$/;"	p
+org.json	org/json/XML.java	/^package org.json;$/;"	p
+org.json	org/json/XMLTokener.java	/^package org.json;$/;"	p
+org.json	org/json/Xml2Txt.java	/^package org.json;$/;"	p
+org.json.zip	org/json/zip/BitInputStream.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/BitOutputStream.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/BitReader.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/BitWriter.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/Compressor.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/Decompressor.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/Huff.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/JSONzip.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/Keep.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/MapKeep.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/None.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/PostMortem.java	/^package org.json.zip;$/;"	p
+org.json.zip	org/json/zip/TrieKeep.java	/^package org.json.zip;$/;"	p
+org.plda	org/plda/Document.java	/^package org.plda;$/;"	p
+org.plda	org/plda/PLDA.java	/^package org.plda;$/;"	p
+org.plda	org/plda/PLDABase.java	/^package org.plda;$/;"	p
+org.plda	org/plda/PLDADocModel.java	/^package org.plda;$/;"	p
+org.plda	org/plda/PLDAInferencer.java	/^package org.plda;$/;"	p
+org.plda	org/plda/PLDP.java	/^package org.plda;$/;"	p
+org.plda	org/plda/RTM.java	/^package org.plda;$/;"	p
+org.plda	org/plda/SPLDA.java	/^package org.plda;$/;"	p
+org.plda	org/plda/SPLDAInferencer.java	/^package org.plda;$/;"	p
+org.sostruct	org/sostruct/Answer.java	/^package org.sostruct;$/;"	p
+org.sostruct	org/sostruct/Comment.java	/^package org.sostruct;$/;"	p
+org.sostruct	org/sostruct/InvPattern.java	/^package org.sostruct;$/;"	p
+org.sostruct	org/sostruct/Question.java	/^package org.sostruct;$/;"	p
+out	org/json/zip/BitOutputStream.java	/^    private OutputStream out;$/;"	f	class:BitOutputStream	file:
+pad	org/json/zip/BitInputStream.java	/^    public boolean pad(int factor) throws IOException {$/;"	m	class:BitInputStream
+pad	org/json/zip/BitOutputStream.java	/^    public void pad(int factor) throws IOException {$/;"	m	class:BitOutputStream
+pad	org/json/zip/BitReader.java	/^    public boolean pad(int factor) throws IOException;$/;"	m	interface:BitReader
+pad	org/json/zip/BitWriter.java	/^    public void pad(int factor) throws IOException;$/;"	m	interface:BitWriter
+pad	org/json/zip/Compressor.java	/^    public void pad(int factor) throws JSONException {$/;"	m	class:Compressor
+pad	org/json/zip/Decompressor.java	/^    public boolean pad(int factor) throws JSONException {$/;"	m	class:Decompressor
+parent	org/index/LuceneDocToTSV.java	/^    Tag parent;  \/\/ reference to an ancestor tag$/;"	f	class:Tag
+parse	org/json/JSONML.java	/^    private static Object parse($/;"	m	class:JSONML	file:
+parse	org/json/XML.java	/^    private static boolean parse(XMLTokener x, JSONObject context,$/;"	m	class:XML	file:
+parse	org/json/Xml2Txt.java	/^	public void parse() throws Exception {$/;"	m	class:Xml2Txt
+parseBody	org/sostruct/Question.java	/^	void parseBody(String xml) throws Exception {$/;"	m	class:Post
+phi	org/plda/PLDABase.java	/^    float phi;$/;"	f	class:TermPhi
+phi	org/plda/PLDABase.java	/^    float[][] phi;$/;"	f	class:PLDABase
+pop	org/json/JSONWriter.java	/^    private void pop(char c) throws JSONException {$/;"	m	class:JSONWriter	file:
+populateMap	org/json/JSONObject.java	/^    private void populateMap(Object bean) {$/;"	m	class:JSONObject	file:
+postMortem	org/json/zip/Huff.java	/^        public boolean postMortem(PostMortem pm) {$/;"	m	class:Huff.Symbol
+postMortem	org/json/zip/Huff.java	/^    private boolean postMortem(int integer) {$/;"	m	class:Huff	file:
+postMortem	org/json/zip/Huff.java	/^    public boolean postMortem(PostMortem pm) {$/;"	m	class:Huff
+postMortem	org/json/zip/JSONzip.java	/^    public boolean postMortem(PostMortem pm) {$/;"	m	class:JSONzip
+postMortem	org/json/zip/MapKeep.java	/^    public boolean postMortem(PostMortem pm) {$/;"	m	class:MapKeep
+postMortem	org/json/zip/PostMortem.java	/^    public boolean postMortem(PostMortem pm);$/;"	m	interface:PostMortem
+postMortem	org/json/zip/TrieKeep.java	/^        public boolean postMortem(PostMortem pm) {$/;"	m	class:TrieKeep.Node
+postMortem	org/json/zip/TrieKeep.java	/^    public boolean postMortem(PostMortem pm) {$/;"	m	class:TrieKeep
+power	org/json/zip/Keep.java	/^    protected int power;$/;"	f	class:Keep
+preProcessPuncts	org/sostruct/Question.java	/^    String preProcessPuncts(String text) {$/;"	m	class:Post
+predictResponse	org/plda/SPLDA.java	/^	float predictResponse(int m) {$/;"	m	class:SPLDA
+predictResponse	org/plda/SPLDAInferencer.java	/^	float predictResponse(int m) {$/;"	m	class:SPLDAInferencer
+previous	org/json/JSONTokener.java	/^    private char    previous;$/;"	f	class:JSONTokener	file:
+prob	org/plda/PLDA.java	/^    float prob;$/;"	f	class:TopicInfo
+probe	org/json/zip/JSONzip.java	/^    public static final boolean probe = false;$/;"	f	class:JSONzip
+processAll	org/crawler/LinkExtractor.java	/^    void processAll() throws Exception {$/;"	m	class:LinkExtractor
+processAll	org/crawler/LinkedQuestionExtractor.java	/^    void processAll() throws Exception {$/;"	m	class:LinkedQuestionExtractor
+processDirectory	org/crawler/LinkExtractor.java	/^    private void processDirectory(File dir) throws Exception {$/;"	m	class:LinkExtractor	file:
+processDirectory	org/crawler/LinkedQuestionExtractor.java	/^private void processDirectory(File dir) throws Exception {$/;"	m	class:LinkedQuestionExtractor	file:
+processFile	org/crawler/LinkExtractor.java	/^    void processFile(File jsonFile) throws Exception {$/;"	m	class:LinkExtractor
+processFile	org/crawler/LinkedQuestionExtractor.java	/^    void processFile(File jsonFile) throws Exception {$/;"	m	class:LinkedQuestionExtractor
+processQuestion	org/crawler/LinkedQuestionExtractor.java	/^    String processQuestion(Question[] questions, int numQuestions) throws Exception {$/;"	m	class:LinkedQuestionExtractor
+prop	org/index/LuceneDocToTSV.java	/^    Properties prop;$/;"	f	class:LuceneDocToTSV
+prop	org/index/QuestionIndexer.java	/^    Properties prop;$/;"	f	class:QuestionIndexer
+prop	org/index/SOQuestionSearcher.java	/^    Properties prop;$/;"	f	class:QueryConstructor
+prop	org/index/SOQuestionSearcher.java	/^    Properties prop;$/;"	f	class:SOQuestionSearcher
+prop	org/plda/Document.java	/^    Properties prop;$/;"	f	class:Collection
+prop	org/plda/PLDABase.java	/^    Properties prop;$/;"	f	class:PLDABase
+push	org/json/JSONWriter.java	/^    private void push(JSONObject jo) throws JSONException {$/;"	m	class:JSONWriter	file:
+put	org/json/JSONArray.java	/^    public JSONArray put(Collection value) {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(Map value) {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(Object value) {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(boolean value) {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(double value) throws JSONException {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(int index, Collection value) throws JSONException {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(int index, Map value) throws JSONException {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(int index, Object value) throws JSONException {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(int index, boolean value) throws JSONException {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(int index, double value) throws JSONException {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(int index, int value) throws JSONException {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(int index, long value) throws JSONException {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(int value) {$/;"	m	class:JSONArray
+put	org/json/JSONArray.java	/^    public JSONArray put(long value) {$/;"	m	class:JSONArray
+put	org/json/JSONObject.java	/^    public JSONObject put(String key, Collection value) throws JSONException {$/;"	m	class:JSONObject
+put	org/json/JSONObject.java	/^    public JSONObject put(String key, Map value) throws JSONException {$/;"	m	class:JSONObject
+put	org/json/JSONObject.java	/^    public JSONObject put(String key, Object value) throws JSONException {$/;"	m	class:JSONObject
+put	org/json/JSONObject.java	/^    public JSONObject put(String key, boolean value) throws JSONException {$/;"	m	class:JSONObject
+put	org/json/JSONObject.java	/^    public JSONObject put(String key, double value) throws JSONException {$/;"	m	class:JSONObject
+put	org/json/JSONObject.java	/^    public JSONObject put(String key, int value) throws JSONException {$/;"	m	class:JSONObject
+put	org/json/JSONObject.java	/^    public JSONObject put(String key, long value) throws JSONException {$/;"	m	class:JSONObject
+put	org/plda/Document.java	/^    public int put(String word) {$/;"	m	class:WordMap
+put	org/plda/Document.java	/^    public void put(K key, V value) {$/;"	m	class:BiHashMap
+putOnce	org/json/JSONObject.java	/^    public JSONObject putOnce(String key, Object value) throws JSONException {$/;"	m	class:JSONObject
+putOpt	org/json/JSONObject.java	/^    public JSONObject putOpt(String key, Object value) throws JSONException {$/;"	m	class:JSONObject
+qc	org/index/SOQuestionSearcher.java	/^    QueryConstructor qc;$/;"	f	class:SOQuestionSearcher
+qid	org/index/SOQuestionSearcher.java	/^    int qid;$/;"	f	class:SOQuery
+quote	org/json/JSONObject.java	/^    public static String quote(String string) {$/;"	m	class:JSONObject
+quote	org/json/JSONObject.java	/^    public static Writer quote(String string, Writer w) throws IOException {$/;"	m	class:JSONObject
+read	org/json/zip/BitInputStream.java	/^    public int read(int width) throws IOException {$/;"	m	class:BitInputStream
+read	org/json/zip/BitReader.java	/^    public int read(int width) throws IOException;$/;"	m	interface:BitReader
+read	org/json/zip/Decompressor.java	/^    private int read(int width) throws JSONException {$/;"	m	class:Decompressor	file:
+read	org/json/zip/Huff.java	/^    public int read(BitReader bitreader) throws JSONException {$/;"	m	class:Huff
+readArray	org/json/zip/Decompressor.java	/^    private JSONArray readArray(boolean stringy) throws JSONException {$/;"	m	class:Decompressor	file:
+readJSON	org/json/zip/Decompressor.java	/^    private Object readJSON() throws JSONException {$/;"	m	class:Decompressor	file:
+readName	org/json/zip/Decompressor.java	/^    private String readName() throws JSONException {$/;"	m	class:Decompressor	file:
+readObject	org/json/zip/Decompressor.java	/^    private JSONObject readObject() throws JSONException {$/;"	m	class:Decompressor	file:
+readString	org/json/zip/Decompressor.java	/^    private String readString() throws JSONException {$/;"	m	class:Decompressor	file:
+readValue	org/json/zip/Decompressor.java	/^    private Object readValue() throws JSONException {$/;"	m	class:Decompressor	file:
+reader	org/index/LuceneDocToTSV.java	/^    IndexReader reader;$/;"	f	class:LuceneDocToTSV
+reader	org/json/JSONTokener.java	/^    private Reader  reader;$/;"	f	class:JSONTokener	file:
+register	org/json/zip/MapKeep.java	/^    public void register(Object value) {$/;"	m	class:MapKeep
+registerMany	org/json/zip/TrieKeep.java	/^    public void registerMany(Kim kim) {$/;"	m	class:TrieKeep
+registerOne	org/json/zip/TrieKeep.java	/^    public int registerOne(Kim kim, int from, int thru) {$/;"	m	class:TrieKeep
+registerOne	org/json/zip/TrieKeep.java	/^    public void registerOne(Kim kim) {$/;"	m	class:TrieKeep
+remove	org/json/JSONArray.java	/^    public Object remove(int index) {$/;"	m	class:JSONArray
+remove	org/json/JSONObject.java	/^    public Object remove(String key) {$/;"	m	class:JSONObject
+removePattern	org/sostruct/InvPattern.java	/^    static String[] removePattern(String text, String pattern) {$/;"	m	class:InvPattern
+removeTags	org/sostruct/Question.java	/^    public static String removeTags(String content) {$/;"	m	class:Question
+reserve	org/json/zip/TrieKeep.java	/^    public void reserve() {$/;"	m	class:TrieKeep
+retrieveAll	org/index/SOQuestionSearcher.java	/^    public void retrieveAll() throws Exception {$/;"	m	class:SOQuestionSearcher
+revmap	org/plda/Document.java	/^    HashMap<V, K> revmap;$/;"	f	class:BiHashMap
+root	org/json/zip/TrieKeep.java	/^    private Node root;$/;"	f	class:TrieKeep	file:
+rowToJSONArray	org/json/CDL.java	/^    public static JSONArray rowToJSONArray(JSONTokener x) throws JSONException {$/;"	m	class:CDL
+rowToJSONObject	org/json/CDL.java	/^    public static JSONObject rowToJSONObject(JSONArray names, JSONTokener x)$/;"	m	class:CDL
+rowToString	org/json/CDL.java	/^    public static String rowToString(JSONArray ja) {$/;"	m	class:CDL
+sampleLabelTopic	org/plda/PLDP.java	/^    LabelTopic sampleLabelTopic(ArrayList<LabelTopic> lz, float[] p) {$/;"	m	class:PLDP
+sampleTopic	org/plda/PLDABase.java	/^    static int sampleTopic(TopicInfo[] p) {$/;"	m	class:PLDABase
+sampling	org/plda/PLDA.java	/^	LabelTopic sampling(int m, int n) {$/;"	m	class:PLDA
+sampling	org/plda/PLDABase.java	/^    abstract LabelTopic sampling(int m, int n);$/;"	m	class:PLDABase
+sampling	org/plda/PLDAInferencer.java	/^	LabelTopic sampling(int m, int n) {$/;"	m	class:PLDAInferencer
+sampling	org/plda/PLDP.java	/^    LabelTopic sampling(int m, int n) {$/;"	m	class:PLDP
+samplingProb	org/plda/PLDA.java	/^    float samplingProb(PLDADocModel docModel, int j, int k, int t) {$/;"	m	class:PLDA
+samplingProb	org/plda/PLDAInferencer.java	/^    float samplingProb(PLDADocModel docModel, Label l, int topicOffset, int t) {$/;"	m	class:PLDAInferencer
+samplingProb	org/plda/PLDP.java	/^	float samplingProb(PLDPDocModel docmodel, int j, int k, int t) {$/;"	m	class:PLDP
+samplingProb	org/plda/SPLDA.java	/^    float samplingProb(PLDADocModel docModel, int j, int k, int t) {$/;"	m	class:SPLDA
+save	org/plda/PLDABase.java	/^    void save() throws Exception {$/;"	m	class:PLDABase
+saveTopWords	org/plda/PLDABase.java	/^    void saveTopWords() throws Exception {$/;"	m	class:PLDABase
+score	org/sostruct/Answer.java	/^    int score;$/;"	f	class:Answer
+score	org/sostruct/Comment.java	/^    int score;$/;"	f	class:Comment
+score	org/sostruct/Question.java	/^    int score;$/;"	f	class:Question
+scorePayload	org/index/SOQuestionSearcher.java	/^    protected float scorePayload(int doc, int start, int end, BytesRef payload) {$/;"	m	class:LMPayloadSimilarity
+searcher	org/index/SOQuestionSearcher.java	/^    IndexSearcher searcher;$/;"	f	class:SOQuestionSearcher
+serialVersionUID	org/json/JSONException.java	/^    private static final long serialVersionUID = 0;$/;"	f	class:JSONException	file:
+set	org/json/zip/TrieKeep.java	/^        public void set(byte cell, Node node) {$/;"	m	class:TrieKeep.Node
+set	org/json/zip/TrieKeep.java	/^        public void set(int cell, Node node) {$/;"	m	class:TrieKeep.Node
+setAnswers	org/sostruct/Question.java	/^    void setAnswers(JSONObject questionObj) throws JSONException {$/;"	m	class:Question
+setComments	org/sostruct/Answer.java	/^    void setComments(JSONArray commentArray) {$/;"	m	class:Answer
+setComments	org/sostruct/Question.java	/^    void setComments(JSONArray commentArray) {$/;"	m	class:Question
+setLearningRate	org/plda/SPLDA.java	/^	void setLearningRate(float alpha) { this.alpha = alpha; }$/;"	m	class:SGDLinearRegressor
+setNumIterations	org/plda/SPLDA.java	/^	void setNumIterations(int niters) { this.niters = niters; }$/;"	m	class:SGDLinearRegressor
+setTags	org/sostruct/Question.java	/^    void setTags(JSONArray tagStrings) {$/;"	m	class:Question
+showTheta	org/plda/SPLDA.java	/^	void showTheta() {$/;"	m	class:SGDLinearRegressor
+sigma	org/plda/SPLDA.java	/^    float   sigma; \/\/ response drawn from N(eta,sigma)$/;"	f	class:SPLDA
+skipPast	org/json/XMLTokener.java	/^    public boolean skipPast(String to) throws JSONException {$/;"	m	class:XMLTokener
+skipTo	org/json/JSONTokener.java	/^    public char skipTo(char to) throws JSONException {$/;"	m	class:JSONTokener
+stack	org/json/JSONWriter.java	/^    private final JSONObject stack[];$/;"	f	class:JSONWriter	file:
+startElement	org/json/Xml2Txt.java	/^	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {$/;"	m	class:Xml2Txt
+startTopicIndex	org/plda/Document.java	/^    int    startTopicIndex; \/\/ range of topics: [startTopicIndex..startTopicIndex+numTopics]$/;"	f	class:Label
+stem	org/index/SOAnalyzer.java	/^	boolean stem;$/;"	f	class:SOAnalyzer
+stopwords	org/index/SOAnalyzer.java	/^	List<String> stopwords;$/;"	f	class:SOAnalyzer
+string	org/json/Kim.java	/^    private String string = null;$/;"	f	class:Kim	file:
+stringToValue	org/json/JSONObject.java	/^    public static Object stringToValue(String string) {$/;"	m	class:JSONObject
+stringToValue	org/json/XML.java	/^    public static Object stringToValue(String string) {$/;"	m	class:XML
+stringkeep	org/json/zip/JSONzip.java	/^    protected final MapKeep stringkeep;$/;"	f	class:JSONzip
+substringLimit	org/json/zip/JSONzip.java	/^    public static final int substringLimit = 40;$/;"	f	class:JSONzip
+substringhuff	org/json/zip/JSONzip.java	/^    protected final Huff substringhuff;$/;"	f	class:JSONzip
+substringkeep	org/json/zip/JSONzip.java	/^    protected final TrieKeep substringkeep;$/;"	f	class:JSONzip
+subtract	org/sostruct/InvPattern.java	/^    static String subtract(String a, String b) {$/;"	m	class:InvPattern
+symbols	org/json/zip/Huff.java	/^    private final Symbol[] symbols;$/;"	f	class:Huff	file:
+syntaxError	org/json/JSONTokener.java	/^    public JSONException syntaxError(String message) {$/;"	m	class:JSONTokener
+table	org/json/zip/Huff.java	/^    private Symbol table;$/;"	f	class:Huff	file:
+tagSyns	org/index/LuceneDocToTSV.java	/^    HashMap<String, Tag> tagSyns;$/;"	f	class:LuceneDocToTSV
+tags	org/sostruct/Question.java	/^    List<String> tags;$/;"	f	class:Question
+testValidity	org/json/JSONObject.java	/^    public static void testValidity(Object o) throws JSONException {$/;"	m	class:JSONObject
+theta	org/plda/PLDADocModel.java	/^    float[] theta;$/;"	f	class:PLDADocModelBase
+theta	org/plda/SPLDA.java	/^    float[] theta; \/\/ params of the model (to be estimated)$/;"	f	class:SGDLinearRegressor
+thrus	org/json/zip/TrieKeep.java	/^    private int[] thrus;$/;"	f	class:TrieKeep	file:
+tick	org/json/zip/Huff.java	/^    public void tick(int from, int to) {$/;"	m	class:Huff
+tick	org/json/zip/Huff.java	/^    public void tick(int value) {$/;"	m	class:Huff
+tick	org/json/zip/Keep.java	/^    public void tick(int integer) {$/;"	m	class:Keep
+title	org/sostruct/Question.java	/^    String title;$/;"	f	class:Question
+toJSONArray	org/json/CDL.java	/^    public static JSONArray toJSONArray(JSONArray names, JSONTokener x)$/;"	m	class:CDL
+toJSONArray	org/json/CDL.java	/^    public static JSONArray toJSONArray(JSONArray names, String string)$/;"	m	class:CDL
+toJSONArray	org/json/CDL.java	/^    public static JSONArray toJSONArray(JSONTokener x) throws JSONException {$/;"	m	class:CDL
+toJSONArray	org/json/CDL.java	/^    public static JSONArray toJSONArray(String string) throws JSONException {$/;"	m	class:CDL
+toJSONArray	org/json/JSONML.java	/^    public static JSONArray toJSONArray(String string) throws JSONException {$/;"	m	class:JSONML
+toJSONArray	org/json/JSONML.java	/^    public static JSONArray toJSONArray(XMLTokener x) throws JSONException {$/;"	m	class:JSONML
+toJSONArray	org/json/JSONObject.java	/^    public JSONArray toJSONArray(JSONArray names) throws JSONException {$/;"	m	class:JSONObject
+toJSONObject	org/json/Cookie.java	/^    public static JSONObject toJSONObject(String string) throws JSONException {$/;"	m	class:Cookie
+toJSONObject	org/json/CookieList.java	/^    public static JSONObject toJSONObject(String string) throws JSONException {$/;"	m	class:CookieList
+toJSONObject	org/json/HTTP.java	/^    public static JSONObject toJSONObject(String string) throws JSONException {$/;"	m	class:HTTP
+toJSONObject	org/json/JSONArray.java	/^    public JSONObject toJSONObject(JSONArray names) throws JSONException {$/;"	m	class:JSONArray
+toJSONObject	org/json/JSONML.java	/^    public static JSONObject toJSONObject(String string) throws JSONException {$/;"	m	class:JSONML
+toJSONObject	org/json/JSONML.java	/^    public static JSONObject toJSONObject(XMLTokener x) throws JSONException {$/;"	m	class:JSONML
+toJSONObject	org/json/Property.java	/^    public static JSONObject toJSONObject(java.util.Properties properties) throws JSONException {$/;"	m	class:Property
+toJSONObject	org/json/XML.java	/^    public static JSONObject toJSONObject(String string) throws JSONException {$/;"	m	class:XML
+toJSONString	org/json/JSONString.java	/^    public String toJSONString();$/;"	m	interface:JSONString
+toProperties	org/json/Property.java	/^    public static Properties toProperties(JSONObject jo)  throws JSONException {$/;"	m	class:Property
+toString	org/json/CDL.java	/^    public static String toString(JSONArray ja) throws JSONException {$/;"	m	class:CDL
+toString	org/json/CDL.java	/^    public static String toString(JSONArray names, JSONArray ja)$/;"	m	class:CDL
+toString	org/json/Cookie.java	/^    public static String toString(JSONObject jo) throws JSONException {$/;"	m	class:Cookie
+toString	org/json/CookieList.java	/^    public static String toString(JSONObject jo) throws JSONException {$/;"	m	class:CookieList
+toString	org/json/HTTP.java	/^    public static String toString(JSONObject jo) throws JSONException {$/;"	m	class:HTTP
+toString	org/json/JSONArray.java	/^    public String toString() {$/;"	m	class:JSONArray
+toString	org/json/JSONArray.java	/^    public String toString(int indentFactor) throws JSONException {$/;"	m	class:JSONArray
+toString	org/json/JSONML.java	/^    public static String toString(JSONArray ja) throws JSONException {$/;"	m	class:JSONML
+toString	org/json/JSONML.java	/^    public static String toString(JSONObject jo) throws JSONException {$/;"	m	class:JSONML
+toString	org/json/JSONObject.java	/^        public String toString() {$/;"	m	class:JSONObject.Null
+toString	org/json/JSONObject.java	/^    public String toString() {$/;"	m	class:JSONObject
+toString	org/json/JSONObject.java	/^    public String toString(int indentFactor) throws JSONException {$/;"	m	class:JSONObject
+toString	org/json/JSONStringer.java	/^    public String toString() {$/;"	m	class:JSONStringer
+toString	org/json/JSONTokener.java	/^    public String toString() {$/;"	m	class:JSONTokener
+toString	org/json/Kim.java	/^    public String toString() throws JSONException {$/;"	m	class:Kim
+toString	org/json/XML.java	/^    public static String toString(Object object) throws JSONException {$/;"	m	class:XML
+toString	org/json/XML.java	/^    public static String toString(Object object, String tagName)$/;"	m	class:XML
+toString	org/plda/Document.java	/^    public String toString() { return name + ":" + id + "(" + startTopicIndex + ", " + (startTopicIndex + numTopics - 1) + ")"; }$/;"	m	class:Label
+toString	org/plda/Document.java	/^    public String toString() {$/;"	m	class:Document
+toString	org/plda/Document.java	/^    public String toString() {$/;"	m	class:MalformedDocumentException
+toString	org/plda/PLDABase.java	/^    public String toString() {$/;"	m	class:LabelTopic
+toString	org/plda/PLDADocModel.java	/^    public String toString() {$/;"	m	class:PLDADocModelBase
+toString	org/sostruct/Answer.java	/^    public String toString() {$/;"	m	class:Answer
+toString	org/sostruct/Comment.java	/^    public String toString() {$/;"	m	class:Comment
+toString	org/sostruct/Question.java	/^    public String toString() {$/;"	m	class:Question
+top	org/json/JSONWriter.java	/^    private int top;$/;"	f	class:JSONWriter	file:
+topDir	org/crawler/LinkExtractor.java	/^    File topDir;$/;"	f	class:LinkExtractor
+topDir	org/crawler/LinkedQuestionExtractor.java	/^    File topDir;$/;"	f	class:LinkedQuestionExtractor
+topDir	org/index/QuestionIndexer.java	/^	File topDir;$/;"	f	class:QuestionIndexer
+topTags	org/index/LuceneDocToTSV.java	/^    HashMap<String, Integer> topTags;$/;"	f	class:LuceneDocToTSV
+topic	org/plda/PLDABase.java	/^    int topic;$/;"	f	class:LabelTopic
+topicId	org/plda/PLDA.java	/^    int topicId;$/;"	f	class:TopicInfo
+totalAnswererRep	org/sostruct/Question.java	/^    float totalAnswererRep() {$/;"	m	class:Question
+totalCommentScore	org/sostruct/Answer.java	/^    int totalCommentScore() {$/;"	m	class:Answer
+trace	org/plda/PLDABase.java	/^    int trace;$/;"	f	class:PLDABase
+twos	org/json/zip/JSONzip.java	/^    public static final int[] twos = {$/;"	f	class:JSONzip
+unescape	org/json/Cookie.java	/^    public static String unescape(String string) {$/;"	m	class:Cookie
+unread	org/json/zip/BitInputStream.java	/^    private int unread = 0;$/;"	f	class:BitInputStream	file:
+unwritten	org/json/zip/BitOutputStream.java	/^    private int unwritten;$/;"	f	class:BitOutputStream	file:
+unzip	org/json/zip/Decompressor.java	/^    public Object unzip() throws JSONException {$/;"	m	class:Decompressor
+upToDate	org/json/zip/Huff.java	/^    private boolean upToDate = false;$/;"	f	class:Huff	file:
+updateDocLabelTopicCounts	org/plda/PLDADocModel.java	/^	void updateDocLabelTopicCounts(int j, int k, int delta) {$/;"	m	class:PLDPDocModel
+updateGlobalLabelTopicCount	org/plda/PLDP.java	/^	void updateGlobalLabelTopicCount(int j, int k, int t, int delta) {$/;"	m	class:PLDP
+updateRegressionParams	org/plda/PLDA.java	/^    void updateRegressionParams() {$/;"	m	class:PLDA
+updateRegressionParams	org/plda/PLDABase.java	/^    abstract void updateRegressionParams();$/;"	m	class:PLDABase
+updateRegressionParams	org/plda/PLDP.java	/^    void updateRegressionParams() {$/;"	m	class:PLDP
+updateRegressionParams	org/plda/SPLDA.java	/^    void updateRegressionParams() throws IllegalArgumentException {$/;"	m	class:SPLDA
+usePrevious	org/json/JSONTokener.java	/^    private boolean usePrevious;$/;"	f	class:JSONTokener	file:
+userReputation	org/sostruct/Answer.java	/^    int userReputation;$/;"	f	class:Answer
+userReputation	org/sostruct/Comment.java	/^    int userReputation;$/;"	f	class:Comment
+uses	org/json/zip/Keep.java	/^    protected long[] uses;$/;"	f	class:Keep
+vacant	org/json/zip/BitOutputStream.java	/^    private int vacant = 8;$/;"	f	class:BitOutputStream	file:
+value	org/json/JSONWriter.java	/^    public JSONWriter value(Object object) throws JSONException {$/;"	m	class:JSONWriter
+value	org/json/JSONWriter.java	/^    public JSONWriter value(boolean b) throws JSONException {$/;"	m	class:JSONWriter
+value	org/json/JSONWriter.java	/^    public JSONWriter value(double d) throws JSONException {$/;"	m	class:JSONWriter
+value	org/json/JSONWriter.java	/^    public JSONWriter value(long l) throws JSONException {$/;"	m	class:JSONWriter
+value	org/json/zip/Keep.java	/^    abstract public Object value(int integer);$/;"	m	class:Keep
+value	org/json/zip/MapKeep.java	/^    public Object value(int integer) {$/;"	m	class:MapKeep
+value	org/json/zip/TrieKeep.java	/^    public Object value(int integer) {$/;"	m	class:TrieKeep
+valueToString	org/json/JSONObject.java	/^    public static String valueToString(Object value) throws JSONException {$/;"	m	class:JSONObject
+values	org/json/zip/JSONzip.java	/^    protected final MapKeep values;$/;"	f	class:JSONzip
+vet	org/json/zip/TrieKeep.java	/^        public Node vet(byte cell) {$/;"	m	class:TrieKeep.Node
+vet	org/json/zip/TrieKeep.java	/^        public Node vet(int cell) {$/;"	m	class:TrieKeep.Node
+weight	org/json/zip/Huff.java	/^        public long weight;$/;"	f	class:Huff.Symbol
+width	org/json/zip/Huff.java	/^    private int width;$/;"	f	class:Huff	file:
+word	org/plda/PLDABase.java	/^    int   word;$/;"	f	class:TermPhi
+wordMap	org/plda/Document.java	/^    WordMap wordMap;$/;"	f	class:Collection
+words	org/plda/Document.java	/^    int[] words;$/;"	f	class:Document
+wrap	org/json/JSONObject.java	/^    public static Object wrap(Object object) {$/;"	m	class:JSONObject
+write	org/json/JSONArray.java	/^    Writer write(Writer writer, int indentFactor, int indent)$/;"	m	class:JSONArray
+write	org/json/JSONArray.java	/^    public Writer write(Writer writer) throws JSONException {$/;"	m	class:JSONArray
+write	org/json/JSONObject.java	/^    Writer write(Writer writer, int indentFactor, int indent)$/;"	m	class:JSONObject
+write	org/json/JSONObject.java	/^    public Writer write(Writer writer) throws JSONException {$/;"	m	class:JSONObject
+write	org/json/zip/BitOutputStream.java	/^    public void write(int bits, int width) throws IOException {$/;"	m	class:BitOutputStream
+write	org/json/zip/BitWriter.java	/^    public void write(int bits, int width) throws IOException;$/;"	m	interface:BitWriter
+write	org/json/zip/Compressor.java	/^    private void write(Kim kim, Huff huff) throws JSONException {$/;"	m	class:Compressor	file:
+write	org/json/zip/Compressor.java	/^    private void write(Kim kim, int from, int thru, Huff huff)$/;"	m	class:Compressor	file:
+write	org/json/zip/Compressor.java	/^    private void write(int integer, Huff huff) throws JSONException {$/;"	m	class:Compressor	file:
+write	org/json/zip/Compressor.java	/^    private void write(int integer, int width) throws JSONException {$/;"	m	class:Compressor	file:
+write	org/json/zip/Huff.java	/^    private void write(Symbol symbol, BitWriter bitwriter)$/;"	m	class:Huff	file:
+write	org/json/zip/Huff.java	/^    public void write(int value, BitWriter bitwriter) throws JSONException {$/;"	m	class:Huff
+writeAndTick	org/json/zip/Compressor.java	/^    private void writeAndTick(int integer, Keep keep) throws JSONException {$/;"	m	class:Compressor	file:
+writeArray	org/json/zip/Compressor.java	/^    private void writeArray(JSONArray jsonarray) throws JSONException {$/;"	m	class:Compressor	file:
+writeJSON	org/json/zip/Compressor.java	/^    private void writeJSON(Object value) throws JSONException {$/;"	m	class:Compressor	file:
+writeName	org/json/zip/Compressor.java	/^    private void writeName(String name) throws JSONException {$/;"	m	class:Compressor	file:
+writeObject	org/json/zip/Compressor.java	/^    private void writeObject(JSONObject jsonobject) throws JSONException {$/;"	m	class:Compressor	file:
+writeString	org/json/zip/Compressor.java	/^    private void writeString(String string) throws JSONException {$/;"	m	class:Compressor	file:
+writeSubstring	org/json/zip/Compressor.java	/^    private void writeSubstring(Kim kim) throws JSONException {$/;"	m	class:Compressor	file:
+writeValue	org/json/JSONObject.java	/^    static final Writer writeValue(Writer writer, Object value,$/;"	m	class:JSONObject
+writeValue	org/json/zip/Compressor.java	/^    private void writeValue(Object value) throws JSONException {$/;"	m	class:Compressor	file:
+writer	org/index/QuestionIndexer.java	/^	IndexWriter writer;$/;"	f	class:QuestionIndexer
+writer	org/json/JSONWriter.java	/^    protected Writer writer;$/;"	f	class:JSONWriter
+xmlBody	org/json/Xml2Txt.java	/^	String       xmlBody;$/;"	f	class:Xml2Txt
+y	org/plda/Document.java	/^    float y;        \/\/ the regression output$/;"	f	class:Document
+y	org/plda/SPLDA.java	/^    float[] y;$/;"	f	class:SGDLinearRegressor
+zero	org/json/zip/BitOutputStream.java	/^    public void zero() throws IOException {$/;"	m	class:BitOutputStream
+zero	org/json/zip/BitWriter.java	/^    public void zero() throws IOException;$/;"	m	interface:BitWriter
+zero	org/json/zip/Compressor.java	/^    private void zero() throws JSONException {$/;"	m	class:Compressor	file:
+zero	org/json/zip/Huff.java	/^        public Symbol zero;$/;"	f	class:Huff.Symbol
+zip	org/json/zip/Compressor.java	/^    public void zip(JSONArray jsonarray) throws JSONException {$/;"	m	class:Compressor
+zip	org/json/zip/Compressor.java	/^    public void zip(JSONObject jsonobject) throws JSONException {$/;"	m	class:Compressor
+zipArrayString	org/json/zip/JSONzip.java	/^    public static final int zipArrayString = 6;$/;"	f	class:JSONzip
+zipArrayValue	org/json/zip/JSONzip.java	/^    public static final int zipArrayValue = 7;$/;"	f	class:JSONzip
+zipEmptyArray	org/json/zip/JSONzip.java	/^    public static final int zipEmptyArray = 1;$/;"	f	class:JSONzip
+zipEmptyObject	org/json/zip/JSONzip.java	/^    public static final int zipEmptyObject = 0;$/;"	f	class:JSONzip
+zipFalse	org/json/zip/JSONzip.java	/^    public static final int zipFalse = 3;$/;"	f	class:JSONzip
+zipNull	org/json/zip/JSONzip.java	/^    public static final int zipNull = 4;$/;"	f	class:JSONzip
+zipObject	org/json/zip/JSONzip.java	/^    public static final int zipObject = 5;$/;"	f	class:JSONzip
+zipTrue	org/json/zip/JSONzip.java	/^    public static final int zipTrue = 2;$/;"	f	class:JSONzip

@@ -128,17 +128,20 @@ class QueryConstructor {
     BooleanQuery construct(List<String> terms, String[] tagTerms) {
         BooleanQuery q = new BooleanQuery();
         PayloadFunction pf = new AveragePayloadFunction();
+        Boolean tagsOnly = Boolean.parseBoolean(prop.getProperty("retrieve.tags_only", "false"));
         
         Boolean useTags = Boolean.parseBoolean(prop.getProperty("retrieve.use_tags", "false"));
         Term thisTerm;
         
         //System.out.println("About to add " + terms.size() + " query terms..");
-        for (String term : terms) {
-            thisTerm = new Term(QuestionIndexer.FIELD_BODY_WITH_TOPICS, term);
-            q.add(new LMLinearCombinationTermQuery(thisTerm, pf, lambda, tmLambda), BooleanClause.Occur.SHOULD);
+        if (!tagsOnly) {
+            for (String term : terms) {
+                thisTerm = new Term(QuestionIndexer.FIELD_BODY_WITH_TOPICS, term);
+                q.add(new LMLinearCombinationTermQuery(thisTerm, pf, lambda, tmLambda), BooleanClause.Occur.SHOULD);
+            }
         }
         
-        if (useTags) {
+        if (useTags || tagsOnly) {
             for (String term : tagTerms) {
                 thisTerm = new Term(QuestionIndexer.FIELD_TAGS, term);
                 q.add(new TermQuery(thisTerm), BooleanClause.Occur.SHOULD);
